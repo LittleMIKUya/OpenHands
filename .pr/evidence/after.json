@@ -1,0 +1,12 @@
+{
+  "mode": "after",
+  "firstClick": {
+    "checked": "false",
+    "patches": 1
+  },
+  "failedSave": {
+    "checked": "false"
+  },
+  "backend": "openhands-agent-server 1.50.1",
+  "model": "No model execution: settings-only UI"
+}

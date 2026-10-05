@@ -1,0 +1,237 @@
+
+ RUN  v5.0.0 C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main
+
+ ❯ |jsdom| __tests__/scripts/stryker-diff.test.ts (12 tests | 1 failed) 243ms
+   ❯ Stryker diff runner (12)
+     × uses the requested base ref and mutates changed TypeScript production files 3ms
+ ❯ |jsdom| __tests__/e2e/resolve-affected-tests.test.ts (13 tests | 3 failed) 505ms
+   ❯ mock-LLM E2E affected test resolver (13)
+     × selects mapped source shards plus regressions 55ms
+     × selects the containing feature subset for a test-only new spec change 52ms
+     × selects the exact root spec path defensively for misplaced new specs 48ms
+ ❯ |jsdom| __tests__/scripts/download-node.test.ts (5 tests | 1 failed) 25ms
+   ❯ download-node getPlatformSpec (5)
+     × defaults platform/arch to the host values 2ms
+ ❯ |jsdom| __tests__/scripts/docker-session-key-policy.test.ts (2 tests | 2 failed) 27ms
+   ❯ Docker session-key injection policy (2)
+     × does not inject the key by default 6ms
+     × requires an explicit true value and warns when enabled 2ms
+ ❯ |jsdom| __tests__/api/agent-server-adapter.test.ts (100 tests | 1 failed) 67ms
+   ❯ buildStartConversationRequest (45)
+     × uses nested settings as the source of truth and lets the SDK create the agent 5ms
+
+ Test Files  5 failed (5)
+      Tests  8 failed | 124 passed (132)
+   Start at  15:32:44
+   Duration  4.97s (setup 33%, import 26%, transform 16%, tests 13%, environment 11%)
+
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/remote-conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/http-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/events/websocket-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/conversation-event-stream.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/remote-state.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/events/remote-events-list.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/workspace/remote-workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/bash-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/runtime-transport.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-server-compatibility.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/local-conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/workspace/local-workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/prompts/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/prompts/system-prompt.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/secret-registry.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/stuck-detector.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/events/types.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/security/confirmation-policy.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/conversation/conversation-manager.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/file-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/hooks-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/llm-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/mcp-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/meta-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/server-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/settings-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/shared-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/skills-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/sub-agents-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/tool-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/vscode-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/workspaces-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/workspace/workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/security/security-analyzer.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/hooks/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/hooks/types.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/hooks/config.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/agent/agent.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/llm/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/llm/openrouter-llm.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/llm/llm.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/events/bash-websocket-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/types/base.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/models/conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/models/acp.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/profiles/derive-switch-plan.js" points to missing source files
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 8 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |jsdom| __tests__/api/agent-server-adapter.test.ts > buildStartConversationRequest > uses nested settings as the source of truth and lets the SDK create the agent
+AssertionError: expected 'C:\Users\lwy\Documents\Codex\2026-10-…' to match /^\//
+
+- Expected:
+/^\//
+
++ Received:
+"C:\\Users\\lwy\\Documents\\Codex\\2026-10-05\\github-plugin-github-openai-curated-remote-2\\work\\OpenHands-main\\node_modules\\@openhands\\extensions\\skills/add-skill/SKILL.md"
+
+ ❯ __tests__/api/agent-server-adapter.test.ts:248:22
+    246|       // Python agent-server can resolve bundled resources (scripts/, …
+    247|       const source = skill.source as string;
+    248|       expect(source).toMatch(/^\//);
+       |                      ^
+    249|       expect(source).toMatch(
+    250|         new RegExp(`/${skill.name as string}/SKILL\\.md$`),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/8]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects mapped source shards plus regressions
+AssertionError: expected [ …(2) ] to deeply equal [ …(2) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/regressions",
+-   "tests/e2e/mock-llm/settings",
++   "tests\\e2e\\mock-llm\\regressions",
++   "tests\\e2e\\mock-llm\\settings",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:38:7
+     36|     expect(
+     37|       resolveAffectedTests(["src/components/features/settings/llm-form…
+     38|     ).toEqual([
+       |       ^
+     39|       "tests/e2e/mock-llm/regressions",
+     40|       "tests/e2e/mock-llm/settings",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/8]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects the containing feature subset for a test-only new spec change
+AssertionError: expected [ 'tests\e2e\mock-llm\mcp', …(1) ] to deeply equal [ 'tests/e2e/mock-llm/mcp', …(1) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/mcp",
+-   "tests/e2e/mock-llm/regressions",
++   "tests\\e2e\\mock-llm\\mcp",
++   "tests\\e2e\\mock-llm\\regressions",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:61:7
+     59|         "tests/e2e/mock-llm/mcp/mock-llm-new-marketplace.spec.ts",
+     60|       ]),
+     61|     ).toEqual(["tests/e2e/mock-llm/mcp", "tests/e2e/mock-llm/regressio…
+       |       ^
+     62|   });
+     63|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/8]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects the exact root spec path defensively for misplaced new specs
+AssertionError: expected [ …(2) ] to deeply equal [ …(2) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/regressions",
++   "tests\\e2e\\mock-llm\\regressions",
+    "tests/e2e/mock-llm/mock-llm-new-root.spec.ts",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:67:7
+     65|     expect(
+     66|       resolveAffectedTests(["tests/e2e/mock-llm/mock-llm-new-root.spec…
+     67|     ).toEqual([
+       |       ^
+     68|       "tests/e2e/mock-llm/regressions",
+     69|       "tests/e2e/mock-llm/mock-llm-new-root.spec.ts",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/8]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-session-key-policy.test.ts > Docker session-key injection policy > does not inject the key by default
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveStaticServerArgs __tests__/scripts/docker-session-key-policy.test.ts:48:25
+     46|     env,
+     47|   });
+     48|   expect(result.status).toBe(0);
+       |                         ^
+     49|   return {
+     50|     args: result.stdout.trim() ? result.stdout.trim().split("\n") : [],
+ ❯ __tests__/scripts/docker-session-key-policy.test.ts:57:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/8]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-session-key-policy.test.ts > Docker session-key injection policy > requires an explicit true value and warns when enabled
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveStaticServerArgs __tests__/scripts/docker-session-key-policy.test.ts:48:25
+     46|     env,
+     47|   });
+     48|   expect(result.status).toBe(0);
+       |                         ^
+     49|   return {
+     50|     args: result.stdout.trim() ? result.stdout.trim().split("\n") : [],
+ ❯ __tests__/scripts/docker-session-key-policy.test.ts:61:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/8]⎯
+
+ FAIL  |jsdom| __tests__/scripts/download-node.test.ts > download-node getPlatformSpec > defaults platform/arch to the host values
+AssertionError: expected [ 'darwin', 'linux', 'win32' ] to include 'win'
+ ❯ __tests__/scripts/download-node.test.ts:42:42
+     40|     const spec = getPlatformSpec("22.12.0");
+     41|     expect(spec.name.startsWith("node-v22.12.0-")).toBe(true);
+     42|     expect(["darwin", "linux", "win32"]).toContain(
+       |                                          ^
+     43|       spec.name.replace("node-v22.12.0-", "").split("-")[0],
+     44|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/8]⎯
+
+ FAIL  |jsdom| __tests__/scripts/stryker-diff.test.ts > Stryker diff runner > uses the requested base ref and mutates changed TypeScript production files
+AssertionError: expected 'C:\Users\lwy\Documents\Codex\2026-10-…' to match /node_modules\/@stryk…/@stryker-mutator\
+
+- Expected:
+/node_modules\/@stryker-mutator\/core\/bin\/stryker\.js$/
+
++ Received:
+"C:\\Users\\lwy\\Documents\\Codex\\2026-10-05\\github-plugin-github-openai-curated-remote-2\\work\\OpenHands-main\\node_modules\\@stryker-mutator\\core\\bin\\stryker.js"
+
+ ❯ __tests__/scripts/stryker-diff.test.ts:102:38
+    100|       "src/a.ts,src/ui/card.tsx",
+    101|     ]);
+    102|     expect(result.calls[1]?.args[0]).toMatch(
+       |                                      ^
+    103|       /node_modules\/@stryker-mutator\/core\/bin\/stryker\.js$/,
+    104|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/8]⎯

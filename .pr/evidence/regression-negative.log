@@ -1,0 +1,152 @@
+
+ RUN  v5.0.0 C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main
+
+ ❯ |jsdom| __tests__/hooks/use-skill-enablement.test.tsx (2 tests | 2 failed) 181ms
+   ❯ useSkillEnablement (2)
+     × rolls back a failed local save and allows a later retry 95ms
+     × rolls back a failed cloud save and allows a later retry 74ms
+ ❯ |jsdom| __tests__/components/buttons/circle-plus-check-toggle.test.tsx (6 tests | 1 failed) 437ms
+   ❯ CirclePlusCheckToggle (5)
+     × keeps the pressed icon mounted when the pointer enters 76ms
+
+ Test Files  2 failed (2)
+      Tests  3 failed | 5 passed (8)
+   Start at  15:17:51
+   Duration  3.61s (import 31%, environment 25%, transform 17%, setup 16%, tests 10%)
+
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/clients.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/http-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/conversation-event-stream.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/server-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/bash-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/runtime-transport.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-server-compatibility.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/canvas-extensions-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/conversation-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/file-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/hooks-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/git-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/llm-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/mcp-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/meta-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/settings-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/skills-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/sub-agents-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/plugins-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/tool-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/vscode-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/shared-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/workspaces-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/openhands-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/cloud-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/device-flow-client.js" points to missing source files
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |jsdom| __tests__/hooks/use-skill-enablement.test.tsx > useSkillEnablement > rolls back a failed local save and allows a later retry
+AssertionError: expected "saveSettings" to not be called at all, but actually been called 2 times
+
+Received:
+
+  1st saveSettings call:
+
+    Array [
+      Object {
+        "disabled_skills": Array [],
+        "enabled_skills": Array [
+          "add-skill",
+          "agent-canvas-environment",
+          "agent-memory",
+          "agent-sdk-builder",
+          "canvas-extension-api",
+          "code-review",
+          "docker",
+          "github",
+          "openhands-api",
+          "openhands-automation",
+          "openhands-sdk",
+          "skill-creator",
+        ],
+      },
+    ]
+
+  2nd saveSettings call:
+
+    Array [
+      Object {
+        "disabled_skills": Array [
+          "add-javadoc",
+        ],
+        "enabled_skills": Array [],
+      },
+    ]
+
+
+Number of calls: 2
+
+ ❯ __tests__/hooks/use-skill-enablement.test.tsx:89:24
+     87|       await waitFor(() => expect(result.current.settingsLoaded).toBe(t…
+     88|       expect(result.current.isEnabled(skill)).toBe(false);
+     89|       expect(save).not.toHaveBeenCalled();
+       |                        ^
+     90|
+     91|       act(() => result.current.setEnabled(skill.name, true));
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  |jsdom| __tests__/hooks/use-skill-enablement.test.tsx > useSkillEnablement > rolls back a failed cloud save and allows a later retry
+AssertionError: expected "saveSettings" to not be called at all, but actually been called 2 times
+
+Received:
+
+  1st saveSettings call:
+
+    Array [
+      Object {
+        "disabled_skills": Array [],
+      },
+    ]
+
+  2nd saveSettings call:
+
+    Array [
+      Object {
+        "disabled_skills": Array [
+          "add-javadoc",
+        ],
+      },
+    ]
+
+
+Number of calls: 2
+
+ ❯ __tests__/hooks/use-skill-enablement.test.tsx:89:24
+     87|       await waitFor(() => expect(result.current.settingsLoaded).toBe(t…
+     88|       expect(result.current.isEnabled(skill)).toBe(false);
+     89|       expect(save).not.toHaveBeenCalled();
+       |                        ^
+     90|
+     91|       act(() => result.current.setEnabled(skill.name, true));
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  |jsdom| __tests__/components/buttons/circle-plus-check-toggle.test.tsx > CirclePlusCheckToggle > keeps the pressed icon mounted when the pointer enters
+AssertionError: expected false to be true // Object.is equality
+
+- Expected
++ Received
+
+- true
++ false
+
+ ❯ __tests__/components/buttons/circle-plus-check-toggle.test.tsx:115:30
+    113|     fireEvent.mouseDown(icon);
+    114|     await user.hover(toggle);
+    115|     expect(icon.isConnected).toBe(true);
+       |                              ^
+    116|     await user.pointer([
+    117|       { target: icon, keys: "[MouseLeft>]" },
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯

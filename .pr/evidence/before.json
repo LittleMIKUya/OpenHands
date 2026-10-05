@@ -1,0 +1,13 @@
+{
+  "mode": "before",
+  "firstClick": {
+    "checked": "true",
+    "patches": 0
+  },
+  "failedSave": {
+    "checked": "true",
+    "facets": "\nEnabled\n2\nDisabled\n65\nRECOMMENDATION\nRecommended\n12\nOther\n55\nCATEGORY\nAutomatio"
+  },
+  "backend": "openhands-agent-server 1.50.1",
+  "model": "No model execution: settings-only UI"
+}
