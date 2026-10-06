@@ -1,0 +1,63 @@
+
+ RUN  v5.0.0 C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main
+
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/clients.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/http-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/conversation-event-stream.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/server-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/bash-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/runtime-transport.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/agent-server-compatibility.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/canvas-extensions-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/conversation-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/file-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/hooks-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/git-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/llm-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/mcp-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/meta-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/settings-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/skills-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/sub-agents-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/plugins-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/tool-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/vscode-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/shared-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/workspaces-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/openhands-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/cloud-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/OpenHands-main/node_modules/@openhands/typescript-client/dist/client/device-flow-client.js" points to missing source files
+ ❯ |jsdom| __tests__/hooks/use-skill-enablement.test.tsx (5 tests | 2 failed) 1554ms
+   ❯ useSkillEnablement (5)
+     × preserves the last successful local save when refetch is pending and the next save fails 259ms
+     × preserves the last successful cloud save when refetch is pending and the next save fails 214ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |jsdom| __tests__/hooks/use-skill-enablement.test.tsx > useSkillEnablement > preserves the last successful local save when refetch is pending and the next save fails
+ FAIL  |jsdom| __tests__/hooks/use-skill-enablement.test.tsx > useSkillEnablement > preserves the last successful cloud save when refetch is pending and the next save fails
+AssertionError: expected true to be false // Object.is equality
+
+- Expected
++ Received
+
+- false
++ true
+
+ ❯ __tests__/hooks/use-skill-enablement.test.tsx:107:47
+    105|
+    106|       await waitFor(() => expect(displayErrorToast).toHaveBeenCalledTi…
+    107|       expect(result.current.isEnabled(skill)).toBe(false);
+       |                                               ^
+    108|       expect(result.current.isEnabled(secondSkill)).toBe(true);
+    109|       expect(save).toHaveBeenCalledTimes(2);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 3 passed (5)
+   Start at  10:28:52
+   Duration  25.22s (environment 52%, setup 23%, import 12%, transform 7%, tests 6%)

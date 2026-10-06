@@ -1,0 +1,9 @@
+{
+  "mode": "after",
+  "first": "false",
+  "second": "true",
+  "successfulPatches": 1,
+  "postSuccessGetHeld": true,
+  "backend": "openhands-agent-server==1.50.1",
+  "model": "None: settings-only interaction"
+}
