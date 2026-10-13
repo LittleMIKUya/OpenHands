@@ -1,0 +1,1779 @@
+
+> @openhands/agent-canvas@1.25.0 test
+> npm run make-i18n && vitest run --maxWorkers=4
+
+
+> @openhands/agent-canvas@1.25.0 make-i18n
+> node scripts/make-i18n-translations.cjs
+
+
+ RUN  v5.0.0 C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970
+
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/clients.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/agent-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/remote-conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/http-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/conversation-event-stream.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/events/websocket-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/server-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/remote-state.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/bash-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/events/remote-events-list.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/runtime-transport.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/workspace/remote-workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/agent-server-compatibility.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/canvas-extensions-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/local-conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/conversation-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/workspace/local-workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/prompts/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/file-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/prompts/system-prompt.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/hooks-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/secret-registry.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/git-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/stuck-detector.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/llm-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/events/types.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/mcp-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/security/confirmation-policy.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/meta-profiles-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/conversation/conversation-manager.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/settings-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/skills-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/shared-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/sub-agents-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/plugins-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/tool-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/vscode-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/workspaces-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/workspace/workspace.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/openhands-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/cloud-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/security/security-analyzer.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/device-flow-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/hooks/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/hooks/types.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/hooks/config.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/agent/agent.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/llm/index.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/llm/openrouter-llm.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/llm/llm.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/events/bash-websocket-client.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/types/base.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/models/conversation.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/models/acp.js" points to missing source files
+Sourcemap for "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/profiles/derive-switch-plan.js" points to missing source files
+ ❯ |jsdom| __tests__/api/agent-server-adapter.test.ts (106 tests | 1 failed) 105ms
+   ❯ buildStartConversationRequest (43)
+     × uses nested settings as the source of truth and lets the SDK create the agent 8ms
+ ❯ |jsdom| .agents/skills/verify-openhands/scripts/control-openhands.test.mjs (37 tests | 2 failed) 3916ms
+   × build inputs cover every file the frontend imports from outside src 144ms
+   × the tmux directory of a run comes from its whole path 1ms
+ ❯ |jsdom| __tests__/scripts/stryker-diff.test.ts (12 tests | 1 failed) 334ms
+   ❯ Stryker diff runner (12)
+     × uses the requested base ref and mutates changed TypeScript production files 3ms
+ ❯ |jsdom| __tests__/e2e/resolve-affected-tests.test.ts (13 tests | 3 failed) 529ms
+   ❯ mock-LLM E2E affected test resolver (13)
+     × selects mapped source shards plus regressions 59ms
+     × selects the containing feature subset for a test-only new spec change 52ms
+     × selects the exact root spec path defensively for misplaced new specs 54ms
+ ❯ |jsdom| __tests__/utils/workspace-file-discovery.test.ts (3 tests | 3 failed) 40ms
+   ❯ workspace file discovery (3)
+     × preserves default exclusions and omits symlinks 12ms
+     × prunes configured directories safely while preserving root bin and including file symlinks 5ms
+     × detects overflow without warning at an exact limit and removes the cap when unlimited 5ms
+ ❯ |jsdom| __tests__/scripts/docker-session-key-policy.test.ts (2 tests | 2 failed) 22ms
+   ❯ Docker session-key injection policy (2)
+     × does not inject the key by default 7ms
+     × requires an explicit true value and warns when enabled 2ms
+ ❯ |jsdom| __tests__/scripts/docker-browser-tools.test.ts (3 tests | 3 failed) 23ms
+   ❯ Docker browser-tools flag (3)
+     × leaves the agent-server default alone unless the flag is false 6ms
+     × turns the browser off when the flag is false 2ms
+     × keeps an explicit OH_ENABLE_BROWSER 2ms
+ ❯ |jsdom| __tests__/scripts/download-node.test.ts (5 tests | 1 failed) 22ms
+   ❯ download-node getPlatformSpec (5)
+     × defaults platform/arch to the host values 2ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 16 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  |jsdom| __tests__/api/agent-server-adapter.test.ts > buildStartConversationRequest > uses nested settings as the source of truth and lets the SDK create the agent
+AssertionError: expected 'C:\Users\lwy\Documents\Codex\2026-10-…' to match /^\//
+
+- Expected:
+/^\//
+
++ Received:
+"C:\\Users\\lwy\\Documents\\Codex\\2026-10-05\\github-plugin-github-openai-curated-remote-2\\work\\oh17970\\node_modules\\@openhands\\extensions\\skills/add-skill/SKILL.md"
+
+ ❯ __tests__/api/agent-server-adapter.test.ts:238:22
+    236|       // Python agent-server can resolve bundled resources (scripts/, …
+    237|       const source = skill.source as string;
+    238|       expect(source).toMatch(/^\//);
+       |                      ^
+    239|       expect(source).toMatch(
+    240|         new RegExp(`/${skill.name as string}/SKILL\\.md$`),
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/16]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects mapped source shards plus regressions
+AssertionError: expected [ …(2) ] to deeply equal [ …(2) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/regressions",
+-   "tests/e2e/mock-llm/settings",
++   "tests\\e2e\\mock-llm\\regressions",
++   "tests\\e2e\\mock-llm\\settings",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:38:7
+     36|     expect(
+     37|       resolveAffectedTests(["src/components/features/settings/llm-form…
+     38|     ).toEqual([
+       |       ^
+     39|       "tests/e2e/mock-llm/regressions",
+     40|       "tests/e2e/mock-llm/settings",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/16]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects the containing feature subset for a test-only new spec change
+AssertionError: expected [ 'tests\e2e\mock-llm\mcp', …(1) ] to deeply equal [ 'tests/e2e/mock-llm/mcp', …(1) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/mcp",
+-   "tests/e2e/mock-llm/regressions",
++   "tests\\e2e\\mock-llm\\mcp",
++   "tests\\e2e\\mock-llm\\regressions",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:61:7
+     59|         "tests/e2e/mock-llm/mcp/mock-llm-new-marketplace.spec.ts",
+     60|       ]),
+     61|     ).toEqual(["tests/e2e/mock-llm/mcp", "tests/e2e/mock-llm/regressio…
+       |       ^
+     62|   });
+     63|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/16]⎯
+
+ FAIL  |jsdom| __tests__/e2e/resolve-affected-tests.test.ts > mock-LLM E2E affected test resolver > selects the exact root spec path defensively for misplaced new specs
+AssertionError: expected [ …(2) ] to deeply equal [ …(2) ]
+
+- Expected
++ Received
+
+  [
+-   "tests/e2e/mock-llm/regressions",
++   "tests\\e2e\\mock-llm\\regressions",
+    "tests/e2e/mock-llm/mock-llm-new-root.spec.ts",
+  ]
+
+ ❯ __tests__/e2e/resolve-affected-tests.test.ts:67:7
+     65|     expect(
+     66|       resolveAffectedTests(["tests/e2e/mock-llm/mock-llm-new-root.spec…
+     67|     ).toEqual([
+       |       ^
+     68|       "tests/e2e/mock-llm/regressions",
+     69|       "tests/e2e/mock-llm/mock-llm-new-root.spec.ts",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-browser-tools.test.ts > Docker browser-tools flag > leaves the agent-server default alone unless the flag is false
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveEnableBrowser __tests__/scripts/docker-browser-tools.test.ts:40:25
+     38|     { encoding: "utf-8", env: { PATH: process.env.PATH ?? "", ...env }…
+     39|   );
+     40|   expect(result.status).toBe(0);
+       |                         ^
+     41|   return result.stdout;
+     42| }
+ ❯ __tests__/scripts/docker-browser-tools.test.ts:46:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-browser-tools.test.ts > Docker browser-tools flag > turns the browser off when the flag is false
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveEnableBrowser __tests__/scripts/docker-browser-tools.test.ts:40:25
+     38|     { encoding: "utf-8", env: { PATH: process.env.PATH ?? "", ...env }…
+     39|   );
+     40|   expect(result.status).toBe(0);
+       |                         ^
+     41|   return result.stdout;
+     42| }
+ ❯ __tests__/scripts/docker-browser-tools.test.ts:53:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-browser-tools.test.ts > Docker browser-tools flag > keeps an explicit OH_ENABLE_BROWSER
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveEnableBrowser __tests__/scripts/docker-browser-tools.test.ts:40:25
+     38|     { encoding: "utf-8", env: { PATH: process.env.PATH ?? "", ...env }…
+     39|   );
+     40|   expect(result.status).toBe(0);
+       |                         ^
+     41|   return result.stdout;
+     42| }
+ ❯ __tests__/scripts/docker-browser-tools.test.ts:60:7
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-session-key-policy.test.ts > Docker session-key injection policy > does not inject the key by default
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveStaticServerArgs __tests__/scripts/docker-session-key-policy.test.ts:48:25
+     46|     env,
+     47|   });
+     48|   expect(result.status).toBe(0);
+       |                         ^
+     49|   return {
+     50|     args: result.stdout.trim() ? result.stdout.trim().split("\n") : [],
+ ❯ __tests__/scripts/docker-session-key-policy.test.ts:57:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/docker-session-key-policy.test.ts > Docker session-key injection policy > requires an explicit true value and warns when enabled
+AssertionError: expected null to be +0 // Object.is equality
+
+- Expected:
+0
+
++ Received:
+null
+
+ ❯ resolveStaticServerArgs __tests__/scripts/docker-session-key-policy.test.ts:48:25
+     46|     env,
+     47|   });
+     48|   expect(result.status).toBe(0);
+       |                         ^
+     49|   return {
+     50|     args: result.stdout.trim() ? result.stdout.trim().split("\n") : [],
+ ❯ __tests__/scripts/docker-session-key-policy.test.ts:61:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/download-node.test.ts > download-node getPlatformSpec > defaults platform/arch to the host values
+AssertionError: expected [ 'darwin', 'linux', 'win32' ] to include 'win'
+ ❯ __tests__/scripts/download-node.test.ts:42:42
+     40|     const spec = getPlatformSpec("22.12.0");
+     41|     expect(spec.name.startsWith("node-v22.12.0-")).toBe(true);
+     42|     expect(["darwin", "linux", "win32"]).toContain(
+       |                                          ^
+     43|       spec.name.replace("node-v22.12.0-", "").split("-")[0],
+     44|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/16]⎯
+
+ FAIL  |jsdom| __tests__/scripts/stryker-diff.test.ts > Stryker diff runner > uses the requested base ref and mutates changed TypeScript production files
+AssertionError: expected 'C:\Users\lwy\Documents\Codex\2026-10-…' to match /node_modules\/@stryk…/@stryker-mutator\
+
+- Expected:
+/node_modules\/@stryker-mutator\/core\/bin\/stryker\.js$/
+
++ Received:
+"C:\\Users\\lwy\\Documents\\Codex\\2026-10-05\\github-plugin-github-openai-curated-remote-2\\work\\oh17970\\node_modules\\@stryker-mutator\\core\\bin\\stryker.js"
+
+ ❯ __tests__/scripts/stryker-diff.test.ts:102:38
+    100|       "src/a.ts,src/ui/card.tsx",
+    101|     ]);
+    102|     expect(result.calls[1]?.args[0]).toMatch(
+       |                                      ^
+    103|       /node_modules\/@stryker-mutator\/core\/bin\/stryker\.js$/,
+    104|     );
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/16]⎯
+
+ FAIL  |jsdom| __tests__/utils/workspace-file-discovery.test.ts > workspace file discovery > preserves default exclusions and omits symlinks
+Error: EPERM: operation not permitted, symlink 'instructions.md' -> 'C:\Users\lwy\AppData\Local\Temp\workspace-discovery-RfoIu1\AGENTS.md'
+ ❯ __tests__/utils/workspace-file-discovery.test.ts:34:5
+     32|     }
+     33|     writeFileSync(join(workspace, "instructions.md"), "fixture");
+     34|     symlinkSync("instructions.md", join(workspace, "AGENTS.md"));
+       |     ^
+     35|     symlinkSync("nested", join(workspace, "directory-link"));
+     36|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/16]⎯
+
+ FAIL  |jsdom| __tests__/utils/workspace-file-discovery.test.ts > workspace file discovery > prunes configured directories safely while preserving root bin and including file symlinks
+Error: EPERM: operation not permitted, symlink 'instructions.md' -> 'C:\Users\lwy\AppData\Local\Temp\workspace-discovery-QWhM3x\AGENTS.md'
+ ❯ __tests__/utils/workspace-file-discovery.test.ts:34:5
+     32|     }
+     33|     writeFileSync(join(workspace, "instructions.md"), "fixture");
+     34|     symlinkSync("instructions.md", join(workspace, "AGENTS.md"));
+       |     ^
+     35|     symlinkSync("nested", join(workspace, "directory-link"));
+     36|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/16]⎯
+
+ FAIL  |jsdom| __tests__/utils/workspace-file-discovery.test.ts > workspace file discovery > detects overflow without warning at an exact limit and removes the cap when unlimited
+Error: EPERM: operation not permitted, symlink 'instructions.md' -> 'C:\Users\lwy\AppData\Local\Temp\workspace-discovery-wiUvCy\AGENTS.md'
+ ❯ __tests__/utils/workspace-file-discovery.test.ts:34:5
+     32|     }
+     33|     writeFileSync(join(workspace, "instructions.md"), "fixture");
+     34|     symlinkSync("instructions.md", join(workspace, "AGENTS.md"));
+       |     ^
+     35|     symlinkSync("nested", join(workspace, "directory-link"));
+     36|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/16]⎯
+
+ FAIL  |jsdom| .agents/skills/verify-openhands/scripts/control-openhands.test.mjs > build inputs cover every file the frontend imports from outside src
+AssertionError: Expected values to be strictly deep-equal:
++ actual - expected
+
++ [
++   'src\\api\\agent-server-client-options',
++   'src\\api\\backend-registry\\active-store',
++   'src\\api\\cloud\\agent-profiles-service.api',
++   'src\\api\\agent-server-compatibility',
++   'src\\api\\agent-server-config',
++   'src\\api\\backend-registry\\auth',
++   'src\\api\\conversation-service\\agent-server-conversation-service.types',
++   'src\\api\\settings-service\\settings-service.api',
++   'src\\api\\meta-profiles-service\\meta-profiles-service.api',
++   'src\\api\\conversation-metadata-store',
++   'src\\api\\llm-subscription-service',
++   'src\\api\\canvas-ui-client-tool',
++   'src\\api\\launch-child-conversation-client-tool',
++   'src\\api\\backend-registry\\types',
++   'config\\defaults.json',
++   'src\\api\\cloud\\proxy',
++   'src\\api\\client-source',
++   'src\\api\\backend-registry\\health-store',
++   'src\\api\\backend-registry\\storage',
++   'src\\api\\backend-registry\\url-selection',
++   'src\\api\\backend-registry\\health-storage',
++   'src\\api\\backend-registry\\default-backend',
++   'src\\api\\cloud\\types',
++   'src\\api\\provider-connections-service\\provider-connections-service.api',
++   'src\\api\\cloud\\client',
++   'src\\api\\cloud\\organization-suspension-store',
++   'src\\api\\cloud\\sandbox-service.types',
++   'src\\api\\secrets-service.types',
++   'src\\api\\with-retry',
++   'src\\api\\config-service\\config-service.types',
++   'src\\api\\conversation-workspace',
++   'src\\api\\hooks-service',
++   'src\\api\\profiles-service\\profiles-service.api',
++   'src\\api\\cloud\\conversation-service.api',
++   'src\\api\\agent-server-adapter',
++   'src\\api\\open-hands.types',
++   'src\\services\\telemetry',
++   'src\\api\\agent-server-home',
++   'src\\api\\event-service\\event-service.types',
++   'src\\api\\conversation-service\\agent-server-conversation-service.api',
++   'src\\api\\cloud\\git-service.api',
++   'src\\api\\mcp-health\\mcp-health-store',
++   'src\\api\\cloud\\mcp-service.api',
++   'src\\api\\mcp-service\\mcp-redacted-credentials',
++   'src\\api\\cloud\\meta-profiles-service.api',
++   'src\\api\\option-service\\option.types',
++   'src\\api\\plugins-service',
++   'src\\api\\cloud\\profiles-service.api',
++   'src\\api\\cloud\\provider-connections-service.api',
++   'src\\api\\cloud\\secrets-service.api',
++   'src\\api\\cloud\\settings-service.api',
++   'src\\api\\cloud\\skills-service.api',
++   'src\\components\\features\\browser\\browser',
++   'src\\components\\features\\browser\\browser-snapshot',
++   'src\\components\\features\\browser\\empty-browser-message',
++   'src\\routes\\conversation',
++   'src\\components\\features\\chat\\chat-interface',
++   'src\\components\\features\\conversation\\conversation-loading',
++   'src\\components\\features\\conversation\\conversation-main\\conversation-main',
++   'src\\components\\features\\conversation\\conversation-main\\chat-interface-wrapper',
++   'src\\components\\features\\conversation\\conversation-name',
++   'src\\components\\features\\conversation\\conversation-name-with-status',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tabs',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-skill-ready-content',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\shared',
++   'src\\components\\features\\chat\\mono-component',
++   'src\\components\\features\\chat\\path-component',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-action-content',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-observation-content',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-acp-tool-call-content',
++   'src\\components\\conversation-events\\chat\\task-tracking\\task-tracking-observation-content',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\create-skill-ready-event',
++   'src\\components\\features\\chat\\tool-visualizers\\dispatcher',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-action-event-title',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-observation-result',
++   'src\\components\\features\\markdown\\markdown-renderer',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\parse-message-from-event',
++   'src\\components\\features\\chat\\error-message',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-event-content',
++   'src\\components\\features\\chat\\is-in-event-group-context',
++   'src\\components\\features\\chat\\chat-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\critic-result-display',
++   'src\\components\\features\\chat\\generic-event-message',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\get-invoke-skill-items',
++   'src\\components\\conversation-events\\chat\\event-message-components\\skill-ready-content-list',
++   'src\\components\\conversation-events\\chat\\event-message-components\\user-assistant-event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\error-event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\finish-event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\generic-event-message-wrapper',
++   'src\\components\\conversation-events\\chat\\event-message-components\\thought-event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\hook-execution-event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components\\event-group',
++   'src\\components\\conversation-events\\chat\\event-message-components\\skill-item-expanded',
++   'src\\components\\features\\images\\image-carousel',
++   'src\\components\\conversation-events\\chat\\event-message-components\\collapsible-thinking',
++   'src\\components\\conversation-events\\chat\\event-thought-helpers',
++   'src\\components\\features\\chat\\plan-preview',
++   'src\\components\\conversation-events\\chat\\event-message-components\\corrective-nudge-message',
++   'src\\components\\conversation-events\\chat\\event-content-helpers\\should-render-event',
++   'src\\components\\conversation-events\\chat\\hooks\\use-plan-preview-events',
++   'src\\components\\conversation-events\\chat\\messages',
++   'src\\components\\conversation-events\\chat\\event-message',
++   'src\\components\\conversation-events\\chat\\event-message-components',
++   'src\\components\\conversation-events\\chat\\group-events',
++   'src\\components\\conversation-events\\chat\\task-tracking\\task-item',
++   'src\\components\\conversation-events\\chat\\task-tracking\\task-list-section',
++   'src\\components\\features\\automations\\kebab-menu-item-content',
++   'src\\components\\features\\automations\\create-instructions',
++   'src\\components\\features\\automations\\kebab-menu',
++   'src\\components\\features\\automations\\build-automation-pills',
++   'src\\components\\features\\automations\\build-automation-menu-items',
++   'src\\components\\features\\automations\\automation-action-button-classes',
++   'src\\components\\features\\automations\\automation-run-insights',
++   'src\\components\\features\\automations\\automation-view-mode',
++   'src\\components\\features\\automations\\to-latest-run-state',
++   'src\\components\\features\\automations\\detail\\run-phase',
++   'src\\components\\features\\automations\\detail\\run-status-badge',
++   'src\\components\\features\\automations\\automation-card',
++   'src\\components\\features\\automations\\automation-list-row',
++   'src\\components\\features\\automations\\status-badge',
++   'src\\components\\features\\automations\\view-menu-item-content',
++   'src\\components\\features\\automations\\detail\\run-logs-modal',
++   'src\\components\\features\\automations\\detail\\activity-log-item',
++   'src\\components\\features\\automations\\detail\\section-card',
++   'src\\components\\features\\automations\\detail\\config-field',
++   'src\\components\\features\\automations\\detail\\branch-badge',
++   'src\\components\\features\\automations\\detail\\active-status-badge',
++   'src\\components\\features\\automations\\agent-profile-selector',
++   'src\\components\\features\\automations\\detail\\back-link',
++   'src\\components\\features\\automations\\detail\\plugin-chip',
++   'src\\components\\features\\automations\\detail\\debug-automation-button',
++   'src\\components\\features\\automations\\recommended-automations-launcher',
++   'src\\components\\features\\automations\\git-sync\\git-sync-status-pill',
++   'src\\components\\features\\automations\\git-sync\\git-sync-activity-row',
++   'src\\components\\features\\automations\\built-in-integration-choice-modal',
++   'src\\components\\features\\automations\\recommended-automations-rail',
++   'src\\components\\features\\automations\\recommended-automations-section',
++   'src\\components\\features\\automations\\responder-deployment-modal',
++   'src\\components\\features\\backends\\backend-form-modal',
++   'src\\components\\features\\backends\\backend-status-dot',
++   'src\\components\\features\\backends\\backend-status-label',
++   'src\\components\\features\\backends\\device-flow-auth',
++   'src\\components\\features\\backends\\use-backend-switch-redirect',
++   'src\\components\\features\\backends\\backend-version',
++   'src\\components\\features\\backends\\add-backend-modal',
++   'src\\components\\features\\backends\\manage-backends-modal',
++   'src\\components\\features\\backends\\environment-switch-store',
++   'src\\components\\features\\backends\\backend-row',
++   'src\\components\\features\\browser\\browser-chrome-bar',
++   'src\\components\\features\\canvas-extensions\\canvas-extension-icon',
++   'src\\components\\features\\chat\\got-it-button',
++   'src\\components\\features\\chat\\change-agent-context-menu',
++   'src\\components\\features\\context-menu\\context-menu-list-item',
++   'src\\components\\features\\context-menu\\context-menu-icon-text-with-description',
++   'src\\components\\features\\chat\\btw-messages',
++   'src\\components\\features\\chat\\goal-status-banner',
++   'src\\components\\features\\chat\\model-messages',
++   'src\\components\\features\\chat\\interactive-chat-box',
++   'src\\components\\features\\chat\\chat-markdown-path-code',
++   'src\\components\\features\\chat\\typing-indicator',
++   'src\\components\\features\\chat\\chat-suggestions',
++   'src\\components\\features\\chat\\chat-messages-skeleton',
++   'src\\components\\features\\chat\\error-message-banner',
++   'src\\components\\features\\chat\\skill-install-restart-banner',
++   'src\\components\\features\\chat\\pending-user-messages',
++   'src\\components\\features\\chat\\confirmation-mode-enabled',
++   'src\\components\\features\\chat\\chat-status-indicator',
++   'src\\components\\features\\chat\\components\\resolve-picker-kind',
++   'src\\components\\features\\markdown\\code',
++   'src\\components\\features\\markdown\\anchor',
++   'src\\components\\features\\chat\\pending-stop-icon',
++   'src\\components\\features\\chat\\user-message-body',
++   'src\\components\\features\\chat\\change-agent-button',
++   'src\\components\\features\\chat\\components\\chat-input-model',
++   'src\\components\\features\\chat\\components\\chat-input-llm-profile-picker',
++   'src\\components\\features\\chat\\chat-add-file-button',
++   'src\\components\\features\\chat\\chat-send-button',
++   'src\\components\\features\\chat\\chat-dictation-button',
++   'src\\components\\features\\chat\\components\\context-window-meter',
++   'src\\components\\features\\controls\\tools-context-menu-icon-text',
++   'src\\components\\features\\chat\\drag-over',
++   'src\\components\\features\\chat\\uploaded-files',
++   'src\\components\\features\\chat\\components\\chat-input-row',
++   'src\\components\\features\\chat\\components\\chat-input-actions',
++   'src\\components\\features\\chat\\components\\slash-command-menu',
++   'src\\components\\features\\chat\\utils\\chat-input.utils',
++   'src\\components\\features\\chat\\components\\chat-input-field',
++   'src\\components\\features\\chat\\components\\context-window-ring',
++   'src\\components\\features\\chat\\components\\chat-input-grip',
++   'src\\components\\features\\chat\\components\\chat-input-container',
++   'src\\components\\features\\chat\\components\\hidden-file-input',
++   'src\\components\\features\\chat\\success-indicator',
++   'src\\components\\features\\chat\\git-external-link-icon',
++   'src\\components\\features\\chat\\git-control-bar-repo-button',
++   'src\\components\\features\\chat\\git-control-bar-branch-button',
++   'src\\components\\features\\chat\\git-control-bar-pull-button',
++   'src\\components\\features\\chat\\git-control-bar-push-button',
++   'src\\components\\features\\chat\\git-control-bar-pr-button',
++   'src\\components\\features\\chat\\git-control-bar-tooltip-wrapper',
++   'src\\components\\features\\chat\\open-repository-modal',
++   'src\\components\\features\\chat\\goal-status-content',
++   'src\\components\\features\\chat\\custom-chat-input',
++   'src\\components\\features\\chat\\git-control-bar',
++   'src\\components\\features\\chat\\tool-visualizers\\define',
++   'src\\components\\features\\chat\\tool-visualizers\\text-content',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\code-block',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\output-pane',
++   'src\\components\\features\\chat\\tool-visualizers\\index',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\diff-view',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\file-path-chip',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\markdown-file-preview',
++   'src\\components\\features\\chat\\tool-visualizers\\bash\\bash',
++   'src\\components\\features\\chat\\tool-visualizers\\file-editor\\file-editor',
++   'src\\components\\features\\chat\\tool-visualizers\\search\\search',
++   'src\\components\\features\\chat\\tool-visualizers\\task\\task',
++   'src\\components\\features\\markdown\\syntax-highlighter',
++   'src\\components\\features\\chat\\tool-visualizers\\primitives\\key-value-grid',
++   'src\\components\\features\\chat\\remove-file-button',
++   'src\\components\\features\\chat\\uploaded-file',
++   'src\\components\\features\\chat\\uploaded-image',
++   'src\\components\\features\\chat\\pasted-image-upload-as-file-button',
++   'src\\components\\features\\chat\\workspace-mode-icon',
++   'src\\components\\features\\command-menu\\command-menu-items',
++   'src\\components\\features\\command-menu\\command-menu',
++   'src\\components\\features\\command-menu\\command-menu-trigger',
++   'src\\components\\features\\context-menu\\context-menu-icon-text',
++   'src\\components\\features\\chat\\chat-stop-button',
++   'src\\components\\features\\chat\\chat-play-button',
++   'src\\components\\features\\controls\\agent-loading',
++   'src\\components\\features\\controls\\server-status-context-menu-icon-text',
++   'src\\components\\features\\controls\\server-status',
++   'src\\components\\features\\controls\\git-tools-submenu',
++   'src\\components\\features\\controls\\macros-submenu',
++   'src\\components\\features\\context-menu\\archived-disabled-tooltip',
++   'src\\components\\features\\chat\\chat-action-tooltip',
++   'src\\components\\features\\conversation\\conversation-git-actions-menu',
++   'src\\components\\features\\conversation\\conversation-overview-panel',
++   'src\\components\\features\\conversation\\conversation-overview-panel.constants',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\conversation-tab-content',
++   'src\\components\\ui\\resize-handle',
++   'src\\components\\features\\conversation\\conversation-overview-drawer',
++   'src\\components\\features\\conversation\\conversation-overview-drawer-context',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-planner-build-bar',
++   'src\\components\\features\\conversation\\conversation-name-context-menu-icon-text',
++   'src\\components\\features\\controls\\server-status-context-menu',
++   'src\\components\\features\\conversation\\conversation-git-actions-toggle',
++   'src\\components\\features\\conversation\\conversation-overview-toggle',
++   'src\\components\\features\\conversation\\right-panel-toggle',
++   'src\\components\\features\\conversation-panel\\ellipsis-button',
++   'src\\components\\features\\conversation\\conversation-name-context-menu',
++   'src\\components\\features\\conversation-panel\\system-message-modal',
++   'src\\components\\features\\conversation-panel\\skills-modal',
++   'src\\components\\features\\conversation-panel\\hooks-modal',
++   'src\\components\\features\\conversation-panel\\confirm-delete-modal',
++   'src\\components\\features\\conversation-panel\\confirm-stop-modal',
++   'src\\components\\features\\conversation\\transcript-export-modal',
++   'src\\components\\features\\conversation\\conversation-overview-drawer.types',
++   'src\\components\\features\\conversation\\conversation-overview-sections',
++   'src\\components\\features\\conversation\\conversation-overview-automations-panel',
++   'src\\components\\features\\conversation\\conversation-overview-skills-panel',
++   'src\\components\\features\\conversation\\conversation-overview-mcp-panel',
++   'src\\components\\features\\conversation\\conversation-overview-secrets-panel',
++   'src\\components\\features\\conversation\\conversation-overview-git-items-panel',
++   'src\\components\\features\\conversation\\conversation-secondary-drawer.classes',
++   'src\\components\\features\\conversation\\conversation-overview-drawer-content',
++   'src\\components\\features\\conversation\\conversation-overview-drawer.constants',
++   'src\\components\\features\\conversation\\conversation-overview-diffs-row',
++   'src\\components\\features\\conversation\\conversation-overview-context-menu',
++   'src\\components\\features\\conversation\\conversation-overview-git-section',
++   'src\\components\\features\\conversation\\conversation-overview-project-scope-toggle',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-ready-notifier',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\suspense-pending-fallback',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-wrapper',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-container',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-content-area',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\conversation-tab-content-crossfade',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-ids',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-nav',
++   'src\\components\\features\\conversation\\conversation-tabs\\drawer-vscode-link',
++   'src\\components\\features\\conversation\\conversation-tabs\\conversation-tabs-context-menu',
++   'src\\components\\features\\conversation-panel\\budget-display',
++   'src\\components\\features\\conversation\\metrics-modal\\metric-row',
++   'src\\components\\features\\conversation\\usage-panel\\context-meter',
++   'src\\components\\features\\conversation\\metrics-modal\\cost-section',
++   'src\\components\\features\\conversation\\metrics-modal\\usage-section',
++   'src\\components\\features\\conversation\\usage-panel\\compact-context-button',
++   'src\\components\\features\\conversation\\usage-panel\\provider-balance-card',
++   'src\\components\\features\\conversation-panel\\menu-heading',
++   'src\\components\\features\\conversation-panel\\menu-separator',
++   'src\\components\\features\\conversation-panel\\menu-row',
++   'src\\components\\features\\conversation-panel\\hide-older-conversations-row',
++   'src\\components\\features\\conversation-panel\\conversation-panel-list-helpers',
++   'src\\components\\features\\conversation-panel\\budget-progress-bar',
++   'src\\components\\features\\conversation-panel\\budget-usage-text',
++   'src\\components\\features\\conversation-panel\\new-conversation-dropdown-styles',
++   'src\\components\\features\\conversation-panel\\conversation-status-dot',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-footer',
++   'src\\components\\features\\settings\\brand-button',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-context-menu',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-repo-link',
++   'src\\components\\features\\conversation-panel\\conversation-card\\no-repository',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-chips',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-meta-chip',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-title',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-display',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-icons',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-header',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-actions',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-status-badges',
++   'src\\components\\features\\conversation-panel\\conversation-group-folder-row',
++   'src\\components\\features\\conversation-panel\\advanced-conversation-options-modal',
++   'src\\components\\features\\conversation-panel\\local-new-conversation-menu',
++   'src\\components\\features\\conversation-panel\\cloud-new-conversation-menu',
++   'src\\components\\features\\conversation-panel\\confirm-archive-modal',
++   'src\\components\\features\\conversation-panel\\exit-conversation-modal',
++   'src\\components\\features\\conversation-panel\\edit-conversation-tags-modal',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-preview',
++   'src\\components\\features\\conversation-panel\\start-task-card\\start-task-card',
++   'src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-skeleton',
++   'src\\components\\features\\conversation-panel\\compact-conversation-row',
++   'src\\components\\features\\conversation-panel\\conversation-layouts-menu',
++   'src\\components\\features\\conversation-panel\\conversation-active-tag-filters',
++   'src\\components\\features\\conversation-panel\\conversation-panel-new-thread-picker',
++   'src\\components\\features\\conversation-panel\\conversation-group-folder-list',
++   'src\\components\\features\\conversation-panel\\conversation-panel-pinned-section',
++   'src\\components\\features\\conversation-panel\\hook-matcher-content',
++   'src\\components\\features\\conversation-panel\\hooks-modal-header',
++   'src\\components\\features\\conversation-panel\\hooks-loading-state',
++   'src\\components\\features\\conversation-panel\\hooks-empty-state',
++   'src\\components\\features\\conversation-panel\\hook-event-item',
++   'src\\components\\features\\conversation-panel\\runtime-waiting-state',
++   'src\\components\\features\\conversation-panel\\skill-triggers',
++   'src\\components\\features\\conversation-panel\\skill-content',
++   'src\\components\\features\\conversation-panel\\skills-modal-header',
++   'src\\components\\features\\conversation-panel\\skills-modal-section',
++   'src\\components\\features\\conversation-panel\\skills-loading-state',
++   'src\\components\\features\\conversation-panel\\skills-empty-state',
++   'src\\components\\features\\conversation-panel\\skill-item',
++   'src\\components\\features\\conversation-panel\\start-task-card\\start-task-status-indicator',
++   'src\\components\\features\\conversation-panel\\start-task-card\\start-task-status-badge',
++   'src\\components\\features\\conversation-panel\\start-task-card\\start-task-card-header',
++   'src\\components\\features\\conversation-panel\\start-task-card\\start-task-card-footer',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\system-message-content',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tools-list',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\empty-tools-state',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tab-button',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tool-parameters',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\toggle-button',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tool-item',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\system-message-header',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tab-navigation',
++   'src\\components\\features\\conversation-panel\\system-message-modal\\tab-content',
++   'src\\components\\features\\diff-viewer\\commit-row',
++   'src\\components\\features\\diff-viewer\\uncommitted-changes-row',
++   'src\\components\\features\\diff-viewer\\diff-change-list',
++   'src\\components\\features\\diff-viewer\\accordion-panel',
++   'src\\components\\features\\diff-viewer\\loading-spinner',
++   'src\\components\\features\\diff-viewer\\file-diff-viewer',
++   'src\\components\\features\\diff-viewer\\diff-drawer-icon',
++   'src\\components\\features\\diff-viewer\\editor-container',
++   'src\\components\\features\\files\\file-item',
++   'src\\components\\features\\files-tab\\highlighted-source-view',
++   'src\\components\\features\\files-tab\\view-mode',
++   'src\\components\\features\\files-tab\\tree-node',
++   'src\\components\\features\\home\\featured-automations\\automation-run-health',
++   'src\\components\\features\\home\\featured-automations\\automation-run-activity-metrics',
++   'src\\components\\features\\home\\featured-automations\\build-home-automation-menu-items',
++   'src\\components\\features\\home\\featured-automations\\automation-health-indicator',
++   'src\\components\\features\\home\\featured-automations\\automation-run-activity-sparkline',
++   'src\\components\\features\\home\\featured-automations\\build-pinned-automation-menu-items',
++   'src\\components\\features\\home\\featured-automations\\home-automation-menu',
++   'src\\components\\features\\home\\featured-automations\\pinned-automation-card',
++   'src\\components\\features\\home\\featured-automations\\home-automation-activity',
++   'src\\components\\features\\home\\featured-automations\\home-automation-run-tooltip',
++   'src\\components\\features\\home\\shared\\dropdown-item',
++   'src\\components\\features\\home\\shared',
++   'src\\components\\features\\home\\shared\\clear-button',
++   'src\\components\\features\\home\\shared\\toggle-button',
++   'src\\components\\features\\home\\shared\\error-message',
++   'src\\components\\features\\home\\git-branch-dropdown\\branch-dropdown-menu',
++   'src\\components\\features\\home\\git-branch-dropdown\\git-branch-dropdown',
++   'src\\components\\features\\home\\shared\\generic-dropdown-menu',
++   'src\\components\\features\\home\\shared\\loading-spinner',
++   'src\\components\\features\\home\\shared\\empty-state',
++   'src\\components\\features\\home\\git-provider-dropdown\\git-provider-dropdown',
++   'src\\components\\features\\home\\git-repo-dropdown\\use-url-search',
++   'src\\components\\features\\home\\git-repo-dropdown\\use-repository-data',
++   'src\\components\\features\\home\\git-repo-dropdown\\git-repo-dropdown',
++   'src\\components\\features\\home\\featured-automations\\pinned-automations-dashboard',
++   'src\\components\\features\\home\\featured-automations\\running-automations-list',
++   'src\\components\\features\\home\\home-header\\home-header-title',
++   'src\\components\\features\\home\\open-launcher-button',
++   'src\\components\\features\\home\\open-workspace-dialog',
++   'src\\components\\features\\home\\open-repository-dialog',
++   'src\\components\\features\\home\\home-git-control-bar-preview',
++   'src\\components\\features\\home\\repo-selection-form',
++   'src\\components\\features\\home\\workspace-selection-form',
++   'src\\components\\features\\home\\git-provider-dropdown',
++   'src\\components\\features\\home\\git-branch-dropdown',
++   'src\\components\\features\\home\\git-repo-dropdown',
++   'src\\components\\features\\home\\workspace-dropdown\\workspace-dropdown',
++   'src\\components\\features\\home\\workspace-dropdown\\folder-browser-modal',
++   'src\\components\\features\\home\\workspace-dropdown\\manage-workspaces-modal',
++   'src\\components\\features\\images\\image-preview',
++   'src\\components\\features\\images\\image-lightbox',
++   'src\\components\\features\\images\\thumbnail',
++   'src\\components\\features\\launch\\plugin-launch-plugin-section',
++   'src\\components\\features\\launch\\plugin-launch-parameter-input',
++   'src\\components\\features\\manifest\\manifest-repository-list',
++   'src\\components\\features\\manifest\\manifest-form-field',
++   'src\\components\\features\\manifest\\manifest-prerequisites-step',
++   'src\\components\\features\\manifest\\manifest-review-step',
++   'src\\components\\features\\markdown\\remark-github-alerts',
++   'src\\components\\features\\markdown\\list',
++   'src\\components\\features\\markdown\\paragraph',
++   'src\\components\\features\\markdown\\headings',
++   'src\\components\\features\\markdown\\table',
++   'src\\components\\features\\markdown\\blockquote',
++   'src\\components\\features\\markdown\\horizontal-rule',
++   'src\\components\\features\\markdown\\markdown-table-scroll',
++   'src\\components\\features\\mcp-page\\installed-servers-section',
++   'src\\components\\features\\mcp-page\\installed-server-card',
++   'src\\components\\features\\mcp-page\\marketplace-section',
++   'src\\components\\features\\mcp-page\\marketplace-card',
++   'src\\components\\features\\mcp-page\\install-server-modal',
++   'src\\components\\features\\mcp-page\\save-as-secret-toggle',
++   'src\\components\\features\\mcp-page\\custom-server-editor',
++   'src\\components\\features\\mcp-page\\mcp-toolbar',
++   'src\\components\\features\\mcp-page\\mcp-section-filter',
++   'src\\components\\features\\mcp-page\\mcp-server-health',
++   'src\\components\\features\\mcp-page\\mcp-section-filter-dropdown',
++   'src\\components\\features\\onboarding\\onboarding-modal',
++   'src\\components\\features\\onboarding\\onboarding-host',
++   'src\\components\\features\\onboarding\\onboarding-progress-bar',
++   'src\\components\\features\\onboarding\\use-onboarding-completion',
++   'src\\components\\features\\onboarding\\onboarding-preview',
++   'src\\components\\features\\onboarding\\steps\\choose-agent-step',
++   'src\\components\\features\\onboarding\\steps\\check-backend-step',
++   'src\\components\\features\\onboarding\\steps\\setup-llm-step',
++   'src\\components\\features\\onboarding\\steps\\setup-acp-secrets-step',
++   'src\\components\\features\\onboarding\\steps\\say-hello-step',
++   'src\\components\\features\\plugins\\build-plugins-view-model',
++   'src\\components\\features\\plugins\\plugin-files-section',
++   'src\\components\\features\\plugins\\plugin-picker',
++   'src\\components\\features\\plugins\\plugin-picker-card',
++   'src\\components\\features\\plugins\\plugin-spec-identity',
++   'src\\components\\features\\settings\\agent-canvas-version-modal',
++   'src\\components\\features\\settings\\agent-profiles\\agent-profile-actions-menu',
++   'src\\components\\features\\settings\\agent-profiles\\agent-profile-row',
++   'src\\components\\features\\settings\\agent-profiles\\agent-profiles-manager',
++   'src\\components\\features\\settings\\agent-profiles\\global-tools-notice',
++   'src\\components\\features\\settings\\agent-profiles\\merge-agent-profile-save-input',
++   'src\\components\\features\\settings\\agent-profiles\\agent-profiles-body',
++   'src\\components\\features\\settings\\agent-profiles\\delete-agent-profile-modal',
++   'src\\components\\features\\settings\\agent-profiles\\agent-profiles-local-view',
++   'src\\components\\features\\settings\\input-skeleton',
++   'src\\components\\features\\settings\\switch-skeleton',
++   'src\\components\\features\\settings\\settings-dropdown-input',
++   'src\\components\\features\\settings\\upgrade-banner',
++   'src\\components\\features\\settings\\upgrade-button',
++   'src\\components\\features\\settings\\banner-message',
++   'src\\components\\features\\settings\\mobile-header',
++   'src\\components\\features\\settings\\settings-navigation',
++   'src\\components\\features\\settings\\settings-layout',
++   'src\\components\\features\\settings\\llm-profiles\\llm-profiles-manager',
++   'src\\components\\features\\settings\\llm-profiles\\llm-settings-local-view',
++   'src\\components\\features\\settings\\llm-profiles\\profiles-body',
++   'src\\components\\features\\settings\\llm-profiles\\profile-row',
++   'src\\components\\features\\settings\\llm-profiles\\profile-actions-menu',
++   'src\\components\\features\\settings\\llm-profiles\\rename-profile-modal',
++   'src\\components\\features\\settings\\llm-profiles\\delete-profile-modal',
++   'src\\components\\features\\settings\\llm-profiles\\profile-name-input',
++   'src\\components\\features\\settings\\llm-profiles\\add-models-modal',
++   'src\\components\\features\\settings\\llm-profiles\\provider-connections-manager',
++   'src\\components\\features\\settings\\sdk-settings\\sdk-section-page',
++   'src\\components\\features\\settings\\llm-profiles\\profile-actions-menu-item',
++   'src\\components\\features\\settings\\llm-profiles\\provider-connection-actions-menu',
++   'src\\components\\features\\settings\\llm-profiles\\provider-connection-row',
++   'src\\components\\features\\settings\\llm-profiles\\provider-connection-modal',
++   'src\\components\\features\\settings\\llm-profiles\\delete-provider-connection-modal',
++   'src\\components\\features\\settings\\subtext-skeleton',
++   'src\\components\\features\\settings\\settings-input',
++   'src\\components\\features\\settings\\optional-tag',
++   'src\\components\\features\\settings\\meta-llm-profiles\\meta-llm-settings-view',
++   'src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-editor',
++   'src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-row',
++   'src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-actions-menu',
++   'src\\components\\features\\settings\\meta-llm-profiles\\delete-meta-profile-modal',
++   'src\\components\\features\\settings\\meta-llm-profiles\\default-meta-profile',
++   'src\\components\\features\\settings\\meta-llm-profiles\\router-profiles',
++   'src\\components\\features\\settings\\sdk-settings\\field-help',
++   'src\\components\\features\\settings\\sdk-settings\\schema-field',
++   'src\\components\\features\\settings\\sdk-settings\\view-toggle',
++   'src\\components\\features\\settings\\settings-desktop-sidebar',
++   'src\\components\\features\\settings\\settings-nav-header',
++   'src\\components\\features\\settings\\settings-nav-divider',
++   'src\\components\\features\\settings\\settings-nav-link',
++   'src\\components\\features\\settings\\settings-mobile-drawer',
++   'src\\components\\features\\setup-guide\\super-admin-setup-guide.constants',
++   'src\\components\\features\\setup-guide\\use-super-admin-setup-guide',
++   'src\\components\\features\\sidebar\\sidebar-layout',
++   'src\\components\\features\\sidebar\\sidebar-mobile-menu-toggle',
++   'src\\components\\features\\sidebar\\sidebar-mobile-nav-context',
++   'src\\components\\features\\sidebar\\sidebar-collapsed-icon-slot',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist.constants',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist-item-icon',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist-item-preview',
++   'src\\components\\features\\sidebar\\use-sidebar-onboarding-checklist',
++   'src\\components\\features\\sidebar\\sidebar-nav-link',
++   'src\\components\\features\\sidebar\\sidebar-conversation-list',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist',
++   'src\\components\\features\\sidebar\\sidebar-rail-body',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist-storage',
++   'src\\components\\features\\sidebar\\sidebar-onboarding-checklist-llm-complete',
++   'src\\components\\features\\sidebar\\avatar',
++   'src\\components\\features\\skills\\skill-type-badge',
++   'src\\components\\features\\skills\\skill-card-pill-row',
++   'src\\components\\features\\skills\\extensions-navigation',
++   'src\\components\\features\\skills\\skill-icon-badge',
++   'src\\components\\features\\skills\\get-skill-card-description',
++   'src\\components\\features\\skills\\build-skill-pills',
++   'src\\components\\features\\skills\\is-copyable-skill-source',
++   'src\\components\\features\\skills\\get-skill-chat-launch-message',
++   'src\\components\\features\\skills\\skill-facet-row',
++   'src\\components\\features\\skills\\skill-filter',
++   'src\\components\\features\\skills\\skill-facet-rail',
++   'src\\components\\features\\suggestions\\suggestion-item',
++   'src\\components\\features\\chat\\waiting-for-runtime-message',
++   'src\\components\\features\\terminal\\empty-terminal-message',
++   'src\\components\\features\\files\\file-list',
++   'src\\components\\providers\\telemetry-provider',
++   'src\\components\\providers\\agent-server-ui-root',
++   'src\\components\\providers\\agent-server-ui-providers',
++   'src\\components\\features\\backends\\cloud-organization-boundary',
++   'src\\components\\features\\settings',
++   'src\\routes\\app-settings',
++   'src\\routes\\llm-settings',
++   'src\\routes\\mcp-settings',
++   'src\\routes\\secrets-settings',
++   'src\\components\\shared\\buttons\\styled-tooltip',
++   'src\\components\\shared\\buttons\\back-nav-button-content',
++   'src\\components\\shared\\action-tooltip',
++   'src\\components\\shared\\buttons\\copy-to-clipboard-button',
++   'src\\components\\shared\\modals\\modal-backdrop',
++   'src\\components\\shared\\modals\\modal-body',
++   'src\\components\\shared\\buttons\\modal-button',
++   'src\\components\\shared\\modals\\confirmation-modals\\base-modal',
++   'src\\components\\shared\\modals\\confirmation-modals\\danger-modal',
++   'src\\components\\shared\\modals\\settings\\model-selector',
++   'src\\components\\shared\\modals\\settings\\settings-form',
++   'src\\components\\features\\sidebar\\sidebar',
++   'src\\components\\features\\sidebar\\user-avatar',
++   'src\\components\\features\\conversation-panel\\conversation-panel',
++   'src\\components\\features\\conversation-panel\\conversation-panel-wrapper',
++   'src\\components\\features\\terminal\\terminal',
++   'src\\components\\providers',
++   'src\\i18n',
++   'src\\mocks\\should-start-mock-worker',
++   'src\\hooks\\chat\\use-draft-persistence',
++   'src\\hooks\\mutation\\conversation-mutation-utils',
++   'src\\hooks\\query\\use-settings',
++   'src\\hooks\\query\\query-keys',
++   'src\\hooks\\query\\use-user-conversation',
++   'src\\hooks\\query\\use-is-authed',
++   'src\\hooks\\use-user-providers',
++   'src\\hooks\\query\\use-automation-detail',
++   'src\\hooks\\query\\use-cloud-sandbox',
++   'src\\hooks\\query\\use-repository-branches',
++   'src\\hooks\\query\\use-search-branches',
++   'src\\hooks\\query\\use-cloud-organizations',
++   'src\\hooks\\use-conversation-id',
++   'src\\hooks\\query\\use-active-conversation',
++   'src\\hooks\\query\\use-verified-models',
++   'src\\hooks\\query\\use-app-installations',
++   'src\\types\\git',
++   'src\\types\\settings',
++   'src\\hooks\\query\\use-native-git-integrations',
++   'src\\hooks\\query\\use-workspace-file-discovery',
++   'src\\hooks\\use-drag-resize',
++   'src\\hooks\\query\\use-cloud-current-user-id',
++   'src\\hooks\\mutation\\use-delete-conversation',
++   'src\\hooks\\mutation\\use-unified-stop-conversation',
++   'src\\hooks\\mutation\\use-update-conversation-public-flag',
++   'src\\hooks\\use-download-conversation',
++   'src\\hooks\\use-select-conversation-tab',
++   'src\\i18n\\resources',
++   'src\\i18n\\translation.json',
++   'src\\lib',
++   'src\\components\\browser',
++   'src\\components\\conversation',
++   'src\\components\\files',
++   'src\\components\\settings',
++   'src\\components\\sidebar',
++   'src\\components\\terminal',
++   'src\\query-client-config',
++   'src\\styles\\agent-server-ui-style-scope',
++   'src\\types\\canvas-extension',
++   'src\\hooks\\use-telemetry',
++   'src\\manifests\\types',
++   'src\\manifests\\interface-validation',
++   'src\\manifests\\manifest-sources',
++   'src\\manifests\\automation-interface',
++   'src\\manifests\\manifest-local-validation',
++   'src\\manifests\\manifest-template',
++   'src\\manifests\\automation-setup',
++   'src\\manifests\\manifest-bundle',
++   'src\\manifests\\manifest-validation',
++   'src\\manifests\\manifest-registry',
++   'src\\mocks\\automations.mock',
++   'src\\mocks\\automation-runs.mock',
++   'src\\mocks\\handlers',
++   'src\\mocks\\file-service-handlers',
++   'src\\mocks\\secrets-handlers',
++   'src\\mocks\\agent-profiles-handlers',
++   'src\\mocks\\git-repository-handlers',
++   'src\\mocks\\settings-handlers',
++   'src\\mocks\\conversation-handlers',
++   'src\\mocks\\auth-handlers',
++   'src\\mocks\\feedback-handlers',
++   'src\\mocks\\analytics-handlers',
++   'src\\mocks\\automation-handlers',
++   'src\\mocks\\mcp-handlers',
++   'src\\mocks\\workspaces-handlers',
++   'src\\mocks\\canvas-extensions-handlers',
++   'src\\i18n\\declaration',
++   'src\\utils\\retrieve-axios-error-message',
++   'src\\utils\\custom-toast-handlers',
++   'src\\utils\\rate-limit-retry',
++   'src\\routes\\+types\\automation-setup-route',
++   'src\\wrapper\\event-handler',
++   'src\\routes\\home',
++   'src\\routes\\mcp',
++   'src\\routes\\react-router-navigation-provider',
++   'src\\routes\\+types\\settings',
++   'src\\themes\\color-theme\\types',
++   'src\\themes\\color-theme\\definitions\\openhands-deepsea',
++   'src\\themes\\color-theme\\definitions\\openhands-neutral',
++   'src\\themes\\color-theme\\definitions\\openhands-neo',
++   'src\\themes\\color-theme\\definitions\\light-plus',
++   'src\\themes\\color-theme\\definitions\\solarized-light',
++   'src\\themes\\color-theme\\palettes\\neutral',
++   'src\\themes\\color-theme\\definitions',
++   'src\\themes\\color-theme\\runtime',
++   'src\\themes\\color-themes',
++   'src\\types\\agent-server\\core\\base\\base',
++   'src\\types\\agent-server\\core\\base\\common',
++   'src\\types\\agent-server\\core\\base\\action',
++   'src\\types\\agent-server\\core\\base\\critic',
++   'src\\types\\agent-server\\core\\base\\event',
++   'src\\types\\agent-server\\core\\base\\observation',
++   'src\\types\\agent-server\\core\\events\\acp-tool-call-event',
++   'src\\types\\agent-server\\core\\events\\action-event',
++   'src\\types\\agent-server\\core\\events\\condensation-event',
++   'src\\types\\agent-server\\core\\events\\conversation-state-event',
++   'src\\types\\agent-server\\core\\events\\hook-execution-event',
++   'src\\types\\agent-server\\core\\events\\message-event',
++   'src\\types\\agent-server\\core\\events\\observation-event',
++   'src\\types\\agent-server\\core\\events\\pause-event',
++   'src\\types\\agent-server\\core\\events\\streaming-delta-event',
++   'src\\types\\agent-server\\core\\events\\system-event',
++   'src\\types\\agent-server\\core\\base',
++   'src\\types\\agent-server\\core\\events',
++   'src\\types\\agent-server\\core\\openhands-event',
++   'src\\types\\agent-server\\core\\events\\index',
++   'src\\types\\agent-server\\core',
++   'src\\types\\mcp-auth',
++   'src\\ui\\dropdown\\types',
++   'src\\ui\\dropdown\\loading-spinner',
++   'src\\ui\\dropdown\\clear-button',
++   'src\\ui\\dropdown\\toggle-button',
++   'src\\ui\\dropdown\\dropdown-menu',
++   'src\\ui\\dropdown\\dropdown-input',
++   'src\\utils\\path-utils',
++   'src\\utils\\toast-duration',
++   'src\\utils\\user-facing-error',
++   'src\\utils\\api-error-message',
++   'src\\utils\\mcp-config',
++   'src\\utils\\type-guards',
++   'src\\utils\\sdk-http-error',
++   'src\\utils\\suggestions\\non-repo-suggestions',
++   'src\\utils\\suggestions\\repo-suggestions',
++   'src\\hooks\\use-handle-ws-events',
++   'src\\hooks\\use-handle-runtime-active'
++ ]
+- []
+
+
+- Expected
++ Received
+
+- []
++ [
++   "src\\api\\agent-server-client-options",
++   "src\\api\\backend-registry\\active-store",
++   "src\\api\\cloud\\agent-profiles-service.api",
++   "src\\api\\agent-server-compatibility",
++   "src\\api\\agent-server-config",
++   "src\\api\\backend-registry\\auth",
++   "src\\api\\conversation-service\\agent-server-conversation-service.types",
++   "src\\api\\settings-service\\settings-service.api",
++   "src\\api\\meta-profiles-service\\meta-profiles-service.api",
++   "src\\api\\conversation-metadata-store",
++   "src\\api\\llm-subscription-service",
++   "src\\api\\canvas-ui-client-tool",
++   "src\\api\\launch-child-conversation-client-tool",
++   "src\\api\\backend-registry\\types",
++   "config\\defaults.json",
++   "src\\api\\cloud\\proxy",
++   "src\\api\\client-source",
++   "src\\api\\backend-registry\\health-store",
++   "src\\api\\backend-registry\\storage",
++   "src\\api\\backend-registry\\url-selection",
++   "src\\api\\backend-registry\\health-storage",
++   "src\\api\\backend-registry\\default-backend",
++   "src\\api\\cloud\\types",
++   "src\\api\\provider-connections-service\\provider-connections-service.api",
++   "src\\api\\cloud\\client",
++   "src\\api\\cloud\\organization-suspension-store",
++   "src\\api\\cloud\\sandbox-service.types",
++   "src\\api\\secrets-service.types",
++   "src\\api\\with-retry",
++   "src\\api\\config-service\\config-service.types",
++   "src\\api\\conversation-workspace",
++   "src\\api\\hooks-service",
++   "src\\api\\profiles-service\\profiles-service.api",
++   "src\\api\\cloud\\conversation-service.api",
++   "src\\api\\agent-server-adapter",
++   "src\\api\\open-hands.types",
++   "src\\services\\telemetry",
++   "src\\api\\agent-server-home",
++   "src\\api\\event-service\\event-service.types",
++   "src\\api\\conversation-service\\agent-server-conversation-service.api",
++   "src\\api\\cloud\\git-service.api",
++   "src\\api\\mcp-health\\mcp-health-store",
++   "src\\api\\cloud\\mcp-service.api",
++   "src\\api\\mcp-service\\mcp-redacted-credentials",
++   "src\\api\\cloud\\meta-profiles-service.api",
++   "src\\api\\option-service\\option.types",
++   "src\\api\\plugins-service",
++   "src\\api\\cloud\\profiles-service.api",
++   "src\\api\\cloud\\provider-connections-service.api",
++   "src\\api\\cloud\\secrets-service.api",
++   "src\\api\\cloud\\settings-service.api",
++   "src\\api\\cloud\\skills-service.api",
++   "src\\components\\features\\browser\\browser",
++   "src\\components\\features\\browser\\browser-snapshot",
++   "src\\components\\features\\browser\\empty-browser-message",
++   "src\\routes\\conversation",
++   "src\\components\\features\\chat\\chat-interface",
++   "src\\components\\features\\conversation\\conversation-loading",
++   "src\\components\\features\\conversation\\conversation-main\\conversation-main",
++   "src\\components\\features\\conversation\\conversation-main\\chat-interface-wrapper",
++   "src\\components\\features\\conversation\\conversation-name",
++   "src\\components\\features\\conversation\\conversation-name-with-status",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tabs",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-skill-ready-content",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\shared",
++   "src\\components\\features\\chat\\mono-component",
++   "src\\components\\features\\chat\\path-component",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-action-content",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-observation-content",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-acp-tool-call-content",
++   "src\\components\\conversation-events\\chat\\task-tracking\\task-tracking-observation-content",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\create-skill-ready-event",
++   "src\\components\\features\\chat\\tool-visualizers\\dispatcher",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-action-event-title",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-observation-result",
++   "src\\components\\features\\markdown\\markdown-renderer",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\parse-message-from-event",
++   "src\\components\\features\\chat\\error-message",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-event-content",
++   "src\\components\\features\\chat\\is-in-event-group-context",
++   "src\\components\\features\\chat\\chat-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\critic-result-display",
++   "src\\components\\features\\chat\\generic-event-message",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\get-invoke-skill-items",
++   "src\\components\\conversation-events\\chat\\event-message-components\\skill-ready-content-list",
++   "src\\components\\conversation-events\\chat\\event-message-components\\user-assistant-event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\error-event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\finish-event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\generic-event-message-wrapper",
++   "src\\components\\conversation-events\\chat\\event-message-components\\thought-event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\hook-execution-event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components\\event-group",
++   "src\\components\\conversation-events\\chat\\event-message-components\\skill-item-expanded",
++   "src\\components\\features\\images\\image-carousel",
++   "src\\components\\conversation-events\\chat\\event-message-components\\collapsible-thinking",
++   "src\\components\\conversation-events\\chat\\event-thought-helpers",
++   "src\\components\\features\\chat\\plan-preview",
++   "src\\components\\conversation-events\\chat\\event-message-components\\corrective-nudge-message",
++   "src\\components\\conversation-events\\chat\\event-content-helpers\\should-render-event",
++   "src\\components\\conversation-events\\chat\\hooks\\use-plan-preview-events",
++   "src\\components\\conversation-events\\chat\\messages",
++   "src\\components\\conversation-events\\chat\\event-message",
++   "src\\components\\conversation-events\\chat\\event-message-components",
++   "src\\components\\conversation-events\\chat\\group-events",
++   "src\\components\\conversation-events\\chat\\task-tracking\\task-item",
++   "src\\components\\conversation-events\\chat\\task-tracking\\task-list-section",
++   "src\\components\\features\\automations\\kebab-menu-item-content",
++   "src\\components\\features\\automations\\create-instructions",
++   "src\\components\\features\\automations\\kebab-menu",
++   "src\\components\\features\\automations\\build-automation-pills",
++   "src\\components\\features\\automations\\build-automation-menu-items",
++   "src\\components\\features\\automations\\automation-action-button-classes",
++   "src\\components\\features\\automations\\automation-run-insights",
++   "src\\components\\features\\automations\\automation-view-mode",
++   "src\\components\\features\\automations\\to-latest-run-state",
++   "src\\components\\features\\automations\\detail\\run-phase",
++   "src\\components\\features\\automations\\detail\\run-status-badge",
++   "src\\components\\features\\automations\\automation-card",
++   "src\\components\\features\\automations\\automation-list-row",
++   "src\\components\\features\\automations\\status-badge",
++   "src\\components\\features\\automations\\view-menu-item-content",
++   "src\\components\\features\\automations\\detail\\run-logs-modal",
++   "src\\components\\features\\automations\\detail\\activity-log-item",
++   "src\\components\\features\\automations\\detail\\section-card",
++   "src\\components\\features\\automations\\detail\\config-field",
++   "src\\components\\features\\automations\\detail\\branch-badge",
++   "src\\components\\features\\automations\\detail\\active-status-badge",
++   "src\\components\\features\\automations\\agent-profile-selector",
++   "src\\components\\features\\automations\\detail\\back-link",
++   "src\\components\\features\\automations\\detail\\plugin-chip",
++   "src\\components\\features\\automations\\detail\\debug-automation-button",
++   "src\\components\\features\\automations\\recommended-automations-launcher",
++   "src\\components\\features\\automations\\git-sync\\git-sync-status-pill",
++   "src\\components\\features\\automations\\git-sync\\git-sync-activity-row",
++   "src\\components\\features\\automations\\built-in-integration-choice-modal",
++   "src\\components\\features\\automations\\recommended-automations-rail",
++   "src\\components\\features\\automations\\recommended-automations-section",
++   "src\\components\\features\\automations\\responder-deployment-modal",
++   "src\\components\\features\\backends\\backend-form-modal",
++   "src\\components\\features\\backends\\backend-status-dot",
++   "src\\components\\features\\backends\\backend-status-label",
++   "src\\components\\features\\backends\\device-flow-auth",
++   "src\\components\\features\\backends\\use-backend-switch-redirect",
++   "src\\components\\features\\backends\\backend-version",
++   "src\\components\\features\\backends\\add-backend-modal",
++   "src\\components\\features\\backends\\manage-backends-modal",
++   "src\\components\\features\\backends\\environment-switch-store",
++   "src\\components\\features\\backends\\backend-row",
++   "src\\components\\features\\browser\\browser-chrome-bar",
++   "src\\components\\features\\canvas-extensions\\canvas-extension-icon",
++   "src\\components\\features\\chat\\got-it-button",
++   "src\\components\\features\\chat\\change-agent-context-menu",
++   "src\\components\\features\\context-menu\\context-menu-list-item",
++   "src\\components\\features\\context-menu\\context-menu-icon-text-with-description",
++   "src\\components\\features\\chat\\btw-messages",
++   "src\\components\\features\\chat\\goal-status-banner",
++   "src\\components\\features\\chat\\model-messages",
++   "src\\components\\features\\chat\\interactive-chat-box",
++   "src\\components\\features\\chat\\chat-markdown-path-code",
++   "src\\components\\features\\chat\\typing-indicator",
++   "src\\components\\features\\chat\\chat-suggestions",
++   "src\\components\\features\\chat\\chat-messages-skeleton",
++   "src\\components\\features\\chat\\error-message-banner",
++   "src\\components\\features\\chat\\skill-install-restart-banner",
++   "src\\components\\features\\chat\\pending-user-messages",
++   "src\\components\\features\\chat\\confirmation-mode-enabled",
++   "src\\components\\features\\chat\\chat-status-indicator",
++   "src\\components\\features\\chat\\components\\resolve-picker-kind",
++   "src\\components\\features\\markdown\\code",
++   "src\\components\\features\\markdown\\anchor",
++   "src\\components\\features\\chat\\pending-stop-icon",
++   "src\\components\\features\\chat\\user-message-body",
++   "src\\components\\features\\chat\\change-agent-button",
++   "src\\components\\features\\chat\\components\\chat-input-model",
++   "src\\components\\features\\chat\\components\\chat-input-llm-profile-picker",
++   "src\\components\\features\\chat\\chat-add-file-button",
++   "src\\components\\features\\chat\\chat-send-button",
++   "src\\components\\features\\chat\\chat-dictation-button",
++   "src\\components\\features\\chat\\components\\context-window-meter",
++   "src\\components\\features\\controls\\tools-context-menu-icon-text",
++   "src\\components\\features\\chat\\drag-over",
++   "src\\components\\features\\chat\\uploaded-files",
++   "src\\components\\features\\chat\\components\\chat-input-row",
++   "src\\components\\features\\chat\\components\\chat-input-actions",
++   "src\\components\\features\\chat\\components\\slash-command-menu",
++   "src\\components\\features\\chat\\utils\\chat-input.utils",
++   "src\\components\\features\\chat\\components\\chat-input-field",
++   "src\\components\\features\\chat\\components\\context-window-ring",
++   "src\\components\\features\\chat\\components\\chat-input-grip",
++   "src\\components\\features\\chat\\components\\chat-input-container",
++   "src\\components\\features\\chat\\components\\hidden-file-input",
++   "src\\components\\features\\chat\\success-indicator",
++   "src\\components\\features\\chat\\git-external-link-icon",
++   "src\\components\\features\\chat\\git-control-bar-repo-button",
++   "src\\components\\features\\chat\\git-control-bar-branch-button",
++   "src\\components\\features\\chat\\git-control-bar-pull-button",
++   "src\\components\\features\\chat\\git-control-bar-push-button",
++   "src\\components\\features\\chat\\git-control-bar-pr-button",
++   "src\\components\\features\\chat\\git-control-bar-tooltip-wrapper",
++   "src\\components\\features\\chat\\open-repository-modal",
++   "src\\components\\features\\chat\\goal-status-content",
++   "src\\components\\features\\chat\\custom-chat-input",
++   "src\\components\\features\\chat\\git-control-bar",
++   "src\\components\\features\\chat\\tool-visualizers\\define",
++   "src\\components\\features\\chat\\tool-visualizers\\text-content",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\code-block",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\output-pane",
++   "src\\components\\features\\chat\\tool-visualizers\\index",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\diff-view",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\file-path-chip",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\markdown-file-preview",
++   "src\\components\\features\\chat\\tool-visualizers\\bash\\bash",
++   "src\\components\\features\\chat\\tool-visualizers\\file-editor\\file-editor",
++   "src\\components\\features\\chat\\tool-visualizers\\search\\search",
++   "src\\components\\features\\chat\\tool-visualizers\\task\\task",
++   "src\\components\\features\\markdown\\syntax-highlighter",
++   "src\\components\\features\\chat\\tool-visualizers\\primitives\\key-value-grid",
++   "src\\components\\features\\chat\\remove-file-button",
++   "src\\components\\features\\chat\\uploaded-file",
++   "src\\components\\features\\chat\\uploaded-image",
++   "src\\components\\features\\chat\\pasted-image-upload-as-file-button",
++   "src\\components\\features\\chat\\workspace-mode-icon",
++   "src\\components\\features\\command-menu\\command-menu-items",
++   "src\\components\\features\\command-menu\\command-menu",
++   "src\\components\\features\\command-menu\\command-menu-trigger",
++   "src\\components\\features\\context-menu\\context-menu-icon-text",
++   "src\\components\\features\\chat\\chat-stop-button",
++   "src\\components\\features\\chat\\chat-play-button",
++   "src\\components\\features\\controls\\agent-loading",
++   "src\\components\\features\\controls\\server-status-context-menu-icon-text",
++   "src\\components\\features\\controls\\server-status",
++   "src\\components\\features\\controls\\git-tools-submenu",
++   "src\\components\\features\\controls\\macros-submenu",
++   "src\\components\\features\\context-menu\\archived-disabled-tooltip",
++   "src\\components\\features\\chat\\chat-action-tooltip",
++   "src\\components\\features\\conversation\\conversation-git-actions-menu",
++   "src\\components\\features\\conversation\\conversation-overview-panel",
++   "src\\components\\features\\conversation\\conversation-overview-panel.constants",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\conversation-tab-content",
++   "src\\components\\ui\\resize-handle",
++   "src\\components\\features\\conversation\\conversation-overview-drawer",
++   "src\\components\\features\\conversation\\conversation-overview-drawer-context",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-planner-build-bar",
++   "src\\components\\features\\conversation\\conversation-name-context-menu-icon-text",
++   "src\\components\\features\\controls\\server-status-context-menu",
++   "src\\components\\features\\conversation\\conversation-git-actions-toggle",
++   "src\\components\\features\\conversation\\conversation-overview-toggle",
++   "src\\components\\features\\conversation\\right-panel-toggle",
++   "src\\components\\features\\conversation-panel\\ellipsis-button",
++   "src\\components\\features\\conversation\\conversation-name-context-menu",
++   "src\\components\\features\\conversation-panel\\system-message-modal",
++   "src\\components\\features\\conversation-panel\\skills-modal",
++   "src\\components\\features\\conversation-panel\\hooks-modal",
++   "src\\components\\features\\conversation-panel\\confirm-delete-modal",
++   "src\\components\\features\\conversation-panel\\confirm-stop-modal",
++   "src\\components\\features\\conversation\\transcript-export-modal",
++   "src\\components\\features\\conversation\\conversation-overview-drawer.types",
++   "src\\components\\features\\conversation\\conversation-overview-sections",
++   "src\\components\\features\\conversation\\conversation-overview-automations-panel",
++   "src\\components\\features\\conversation\\conversation-overview-skills-panel",
++   "src\\components\\features\\conversation\\conversation-overview-mcp-panel",
++   "src\\components\\features\\conversation\\conversation-overview-secrets-panel",
++   "src\\components\\features\\conversation\\conversation-overview-git-items-panel",
++   "src\\components\\features\\conversation\\conversation-secondary-drawer.classes",
++   "src\\components\\features\\conversation\\conversation-overview-drawer-content",
++   "src\\components\\features\\conversation\\conversation-overview-drawer.constants",
++   "src\\components\\features\\conversation\\conversation-overview-diffs-row",
++   "src\\components\\features\\conversation\\conversation-overview-context-menu",
++   "src\\components\\features\\conversation\\conversation-overview-git-section",
++   "src\\components\\features\\conversation\\conversation-overview-project-scope-toggle",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-ready-notifier",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\suspense-pending-fallback",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-wrapper",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-container",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\tab-content-area",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-content\\conversation-tab-content-crossfade",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-ids",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tab-nav",
++   "src\\components\\features\\conversation\\conversation-tabs\\drawer-vscode-link",
++   "src\\components\\features\\conversation\\conversation-tabs\\conversation-tabs-context-menu",
++   "src\\components\\features\\conversation-panel\\budget-display",
++   "src\\components\\features\\conversation\\metrics-modal\\metric-row",
++   "src\\components\\features\\conversation\\usage-panel\\context-meter",
++   "src\\components\\features\\conversation\\metrics-modal\\cost-section",
++   "src\\components\\features\\conversation\\metrics-modal\\usage-section",
++   "src\\components\\features\\conversation\\usage-panel\\compact-context-button",
++   "src\\components\\features\\conversation\\usage-panel\\provider-balance-card",
++   "src\\components\\features\\conversation-panel\\menu-heading",
++   "src\\components\\features\\conversation-panel\\menu-separator",
++   "src\\components\\features\\conversation-panel\\menu-row",
++   "src\\components\\features\\conversation-panel\\hide-older-conversations-row",
++   "src\\components\\features\\conversation-panel\\conversation-panel-list-helpers",
++   "src\\components\\features\\conversation-panel\\budget-progress-bar",
++   "src\\components\\features\\conversation-panel\\budget-usage-text",
++   "src\\components\\features\\conversation-panel\\new-conversation-dropdown-styles",
++   "src\\components\\features\\conversation-panel\\conversation-status-dot",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-footer",
++   "src\\components\\features\\settings\\brand-button",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-context-menu",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-repo-link",
++   "src\\components\\features\\conversation-panel\\conversation-card\\no-repository",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-chips",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-meta-chip",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-title",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-display",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-tag-icons",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-header",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-actions",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-status-badges",
++   "src\\components\\features\\conversation-panel\\conversation-group-folder-row",
++   "src\\components\\features\\conversation-panel\\advanced-conversation-options-modal",
++   "src\\components\\features\\conversation-panel\\local-new-conversation-menu",
++   "src\\components\\features\\conversation-panel\\cloud-new-conversation-menu",
++   "src\\components\\features\\conversation-panel\\confirm-archive-modal",
++   "src\\components\\features\\conversation-panel\\exit-conversation-modal",
++   "src\\components\\features\\conversation-panel\\edit-conversation-tags-modal",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-preview",
++   "src\\components\\features\\conversation-panel\\start-task-card\\start-task-card",
++   "src\\components\\features\\conversation-panel\\conversation-card\\conversation-card-skeleton",
++   "src\\components\\features\\conversation-panel\\compact-conversation-row",
++   "src\\components\\features\\conversation-panel\\conversation-layouts-menu",
++   "src\\components\\features\\conversation-panel\\conversation-active-tag-filters",
++   "src\\components\\features\\conversation-panel\\conversation-panel-new-thread-picker",
++   "src\\components\\features\\conversation-panel\\conversation-group-folder-list",
++   "src\\components\\features\\conversation-panel\\conversation-panel-pinned-section",
++   "src\\components\\features\\conversation-panel\\hook-matcher-content",
++   "src\\components\\features\\conversation-panel\\hooks-modal-header",
++   "src\\components\\features\\conversation-panel\\hooks-loading-state",
++   "src\\components\\features\\conversation-panel\\hooks-empty-state",
++   "src\\components\\features\\conversation-panel\\hook-event-item",
++   "src\\components\\features\\conversation-panel\\runtime-waiting-state",
++   "src\\components\\features\\conversation-panel\\skill-triggers",
++   "src\\components\\features\\conversation-panel\\skill-content",
++   "src\\components\\features\\conversation-panel\\skills-modal-header",
++   "src\\components\\features\\conversation-panel\\skills-modal-section",
++   "src\\components\\features\\conversation-panel\\skills-loading-state",
++   "src\\components\\features\\conversation-panel\\skills-empty-state",
++   "src\\components\\features\\conversation-panel\\skill-item",
++   "src\\components\\features\\conversation-panel\\start-task-card\\start-task-status-indicator",
++   "src\\components\\features\\conversation-panel\\start-task-card\\start-task-status-badge",
++   "src\\components\\features\\conversation-panel\\start-task-card\\start-task-card-header",
++   "src\\components\\features\\conversation-panel\\start-task-card\\start-task-card-footer",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\system-message-content",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tools-list",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\empty-tools-state",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tab-button",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tool-parameters",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\toggle-button",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tool-item",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\system-message-header",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tab-navigation",
++   "src\\components\\features\\conversation-panel\\system-message-modal\\tab-content",
++   "src\\components\\features\\diff-viewer\\commit-row",
++   "src\\components\\features\\diff-viewer\\uncommitted-changes-row",
++   "src\\components\\features\\diff-viewer\\diff-change-list",
++   "src\\components\\features\\diff-viewer\\accordion-panel",
++   "src\\components\\features\\diff-viewer\\loading-spinner",
++   "src\\components\\features\\diff-viewer\\file-diff-viewer",
++   "src\\components\\features\\diff-viewer\\diff-drawer-icon",
++   "src\\components\\features\\diff-viewer\\editor-container",
++   "src\\components\\features\\files\\file-item",
++   "src\\components\\features\\files-tab\\highlighted-source-view",
++   "src\\components\\features\\files-tab\\view-mode",
++   "src\\components\\features\\files-tab\\tree-node",
++   "src\\components\\features\\home\\featured-automations\\automation-run-health",
++   "src\\components\\features\\home\\featured-automations\\automation-run-activity-metrics",
++   "src\\components\\features\\home\\featured-automations\\build-home-automation-menu-items",
++   "src\\components\\features\\home\\featured-automations\\automation-health-indicator",
++   "src\\components\\features\\home\\featured-automations\\automation-run-activity-sparkline",
++   "src\\components\\features\\home\\featured-automations\\build-pinned-automation-menu-items",
++   "src\\components\\features\\home\\featured-automations\\home-automation-menu",
++   "src\\components\\features\\home\\featured-automations\\pinned-automation-card",
++   "src\\components\\features\\home\\featured-automations\\home-automation-activity",
++   "src\\components\\features\\home\\featured-automations\\home-automation-run-tooltip",
++   "src\\components\\features\\home\\shared\\dropdown-item",
++   "src\\components\\features\\home\\shared",
++   "src\\components\\features\\home\\shared\\clear-button",
++   "src\\components\\features\\home\\shared\\toggle-button",
++   "src\\components\\features\\home\\shared\\error-message",
++   "src\\components\\features\\home\\git-branch-dropdown\\branch-dropdown-menu",
++   "src\\components\\features\\home\\git-branch-dropdown\\git-branch-dropdown",
++   "src\\components\\features\\home\\shared\\generic-dropdown-menu",
++   "src\\components\\features\\home\\shared\\loading-spinner",
++   "src\\components\\features\\home\\shared\\empty-state",
++   "src\\components\\features\\home\\git-provider-dropdown\\git-provider-dropdown",
++   "src\\components\\features\\home\\git-repo-dropdown\\use-url-search",
++   "src\\components\\features\\home\\git-repo-dropdown\\use-repository-data",
++   "src\\components\\features\\home\\git-repo-dropdown\\git-repo-dropdown",
++   "src\\components\\features\\home\\featured-automations\\pinned-automations-dashboard",
++   "src\\components\\features\\home\\featured-automations\\running-automations-list",
++   "src\\components\\features\\home\\home-header\\home-header-title",
++   "src\\components\\features\\home\\open-launcher-button",
++   "src\\components\\features\\home\\open-workspace-dialog",
++   "src\\components\\features\\home\\open-repository-dialog",
++   "src\\components\\features\\home\\home-git-control-bar-preview",
++   "src\\components\\features\\home\\repo-selection-form",
++   "src\\components\\features\\home\\workspace-selection-form",
++   "src\\components\\features\\home\\git-provider-dropdown",
++   "src\\components\\features\\home\\git-branch-dropdown",
++   "src\\components\\features\\home\\git-repo-dropdown",
++   "src\\components\\features\\home\\workspace-dropdown\\workspace-dropdown",
++   "src\\components\\features\\home\\workspace-dropdown\\folder-browser-modal",
++   "src\\components\\features\\home\\workspace-dropdown\\manage-workspaces-modal",
++   "src\\components\\features\\images\\image-preview",
++   "src\\components\\features\\images\\image-lightbox",
++   "src\\components\\features\\images\\thumbnail",
++   "src\\components\\features\\launch\\plugin-launch-plugin-section",
++   "src\\components\\features\\launch\\plugin-launch-parameter-input",
++   "src\\components\\features\\manifest\\manifest-repository-list",
++   "src\\components\\features\\manifest\\manifest-form-field",
++   "src\\components\\features\\manifest\\manifest-prerequisites-step",
++   "src\\components\\features\\manifest\\manifest-review-step",
++   "src\\components\\features\\markdown\\remark-github-alerts",
++   "src\\components\\features\\markdown\\list",
++   "src\\components\\features\\markdown\\paragraph",
++   "src\\components\\features\\markdown\\headings",
++   "src\\components\\features\\markdown\\table",
++   "src\\components\\features\\markdown\\blockquote",
++   "src\\components\\features\\markdown\\horizontal-rule",
++   "src\\components\\features\\markdown\\markdown-table-scroll",
++   "src\\components\\features\\mcp-page\\installed-servers-section",
++   "src\\components\\features\\mcp-page\\installed-server-card",
++   "src\\components\\features\\mcp-page\\marketplace-section",
++   "src\\components\\features\\mcp-page\\marketplace-card",
++   "src\\components\\features\\mcp-page\\install-server-modal",
++   "src\\components\\features\\mcp-page\\save-as-secret-toggle",
++   "src\\components\\features\\mcp-page\\custom-server-editor",
++   "src\\components\\features\\mcp-page\\mcp-toolbar",
++   "src\\components\\features\\mcp-page\\mcp-section-filter",
++   "src\\components\\features\\mcp-page\\mcp-server-health",
++   "src\\components\\features\\mcp-page\\mcp-section-filter-dropdown",
++   "src\\components\\features\\onboarding\\onboarding-modal",
++   "src\\components\\features\\onboarding\\onboarding-host",
++   "src\\components\\features\\onboarding\\onboarding-progress-bar",
++   "src\\components\\features\\onboarding\\use-onboarding-completion",
++   "src\\components\\features\\onboarding\\onboarding-preview",
++   "src\\components\\features\\onboarding\\steps\\choose-agent-step",
++   "src\\components\\features\\onboarding\\steps\\check-backend-step",
++   "src\\components\\features\\onboarding\\steps\\setup-llm-step",
++   "src\\components\\features\\onboarding\\steps\\setup-acp-secrets-step",
++   "src\\components\\features\\onboarding\\steps\\say-hello-step",
++   "src\\components\\features\\plugins\\build-plugins-view-model",
++   "src\\components\\features\\plugins\\plugin-files-section",
++   "src\\components\\features\\plugins\\plugin-picker",
++   "src\\components\\features\\plugins\\plugin-picker-card",
++   "src\\components\\features\\plugins\\plugin-spec-identity",
++   "src\\components\\features\\settings\\agent-canvas-version-modal",
++   "src\\components\\features\\settings\\agent-profiles\\agent-profile-actions-menu",
++   "src\\components\\features\\settings\\agent-profiles\\agent-profile-row",
++   "src\\components\\features\\settings\\agent-profiles\\agent-profiles-manager",
++   "src\\components\\features\\settings\\agent-profiles\\global-tools-notice",
++   "src\\components\\features\\settings\\agent-profiles\\merge-agent-profile-save-input",
++   "src\\components\\features\\settings\\agent-profiles\\agent-profiles-body",
++   "src\\components\\features\\settings\\agent-profiles\\delete-agent-profile-modal",
++   "src\\components\\features\\settings\\agent-profiles\\agent-profiles-local-view",
++   "src\\components\\features\\settings\\input-skeleton",
++   "src\\components\\features\\settings\\switch-skeleton",
++   "src\\components\\features\\settings\\settings-dropdown-input",
++   "src\\components\\features\\settings\\upgrade-banner",
++   "src\\components\\features\\settings\\upgrade-button",
++   "src\\components\\features\\settings\\banner-message",
++   "src\\components\\features\\settings\\mobile-header",
++   "src\\components\\features\\settings\\settings-navigation",
++   "src\\components\\features\\settings\\settings-layout",
++   "src\\components\\features\\settings\\llm-profiles\\llm-profiles-manager",
++   "src\\components\\features\\settings\\llm-profiles\\llm-settings-local-view",
++   "src\\components\\features\\settings\\llm-profiles\\profiles-body",
++   "src\\components\\features\\settings\\llm-profiles\\profile-row",
++   "src\\components\\features\\settings\\llm-profiles\\profile-actions-menu",
++   "src\\components\\features\\settings\\llm-profiles\\rename-profile-modal",
++   "src\\components\\features\\settings\\llm-profiles\\delete-profile-modal",
++   "src\\components\\features\\settings\\llm-profiles\\profile-name-input",
++   "src\\components\\features\\settings\\llm-profiles\\add-models-modal",
++   "src\\components\\features\\settings\\llm-profiles\\provider-connections-manager",
++   "src\\components\\features\\settings\\sdk-settings\\sdk-section-page",
++   "src\\components\\features\\settings\\llm-profiles\\profile-actions-menu-item",
++   "src\\components\\features\\settings\\llm-profiles\\provider-connection-actions-menu",
++   "src\\components\\features\\settings\\llm-profiles\\provider-connection-row",
++   "src\\components\\features\\settings\\llm-profiles\\provider-connection-modal",
++   "src\\components\\features\\settings\\llm-profiles\\delete-provider-connection-modal",
++   "src\\components\\features\\settings\\subtext-skeleton",
++   "src\\components\\features\\settings\\settings-input",
++   "src\\components\\features\\settings\\optional-tag",
++   "src\\components\\features\\settings\\meta-llm-profiles\\meta-llm-settings-view",
++   "src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-editor",
++   "src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-row",
++   "src\\components\\features\\settings\\meta-llm-profiles\\meta-profile-actions-menu",
++   "src\\components\\features\\settings\\meta-llm-profiles\\delete-meta-profile-modal",
++   "src\\components\\features\\settings\\meta-llm-profiles\\default-meta-profile",
++   "src\\components\\features\\settings\\meta-llm-profiles\\router-profiles",
++   "src\\components\\features\\settings\\sdk-settings\\field-help",
++   "src\\components\\features\\settings\\sdk-settings\\schema-field",
++   "src\\components\\features\\settings\\sdk-settings\\view-toggle",
++   "src\\components\\features\\settings\\settings-desktop-sidebar",
++   "src\\components\\features\\settings\\settings-nav-header",
++   "src\\components\\features\\settings\\settings-nav-divider",
++   "src\\components\\features\\settings\\settings-nav-link",
++   "src\\components\\features\\settings\\settings-mobile-drawer",
++   "src\\components\\features\\setup-guide\\super-admin-setup-guide.constants",
++   "src\\components\\features\\setup-guide\\use-super-admin-setup-guide",
++   "src\\components\\features\\sidebar\\sidebar-layout",
++   "src\\components\\features\\sidebar\\sidebar-mobile-menu-toggle",
++   "src\\components\\features\\sidebar\\sidebar-mobile-nav-context",
++   "src\\components\\features\\sidebar\\sidebar-collapsed-icon-slot",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist.constants",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist-item-icon",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist-item-preview",
++   "src\\components\\features\\sidebar\\use-sidebar-onboarding-checklist",
++   "src\\components\\features\\sidebar\\sidebar-nav-link",
++   "src\\components\\features\\sidebar\\sidebar-conversation-list",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist",
++   "src\\components\\features\\sidebar\\sidebar-rail-body",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist-storage",
++   "src\\components\\features\\sidebar\\sidebar-onboarding-checklist-llm-complete",
++   "src\\components\\features\\sidebar\\avatar",
++   "src\\components\\features\\skills\\skill-type-badge",
++   "src\\components\\features\\skills\\skill-card-pill-row",
++   "src\\components\\features\\skills\\extensions-navigation",
++   "src\\components\\features\\skills\\skill-icon-badge",
++   "src\\components\\features\\skills\\get-skill-card-description",
++   "src\\components\\features\\skills\\build-skill-pills",
++   "src\\components\\features\\skills\\is-copyable-skill-source",
++   "src\\components\\features\\skills\\get-skill-chat-launch-message",
++   "src\\components\\features\\skills\\skill-facet-row",
++   "src\\components\\features\\skills\\skill-filter",
++   "src\\components\\features\\skills\\skill-facet-rail",
++   "src\\components\\features\\suggestions\\suggestion-item",
++   "src\\components\\features\\chat\\waiting-for-runtime-message",
++   "src\\components\\features\\terminal\\empty-terminal-message",
++   "src\\components\\features\\files\\file-list",
++   "src\\components\\providers\\telemetry-provider",
++   "src\\components\\providers\\agent-server-ui-root",
++   "src\\components\\providers\\agent-server-ui-providers",
++   "src\\components\\features\\backends\\cloud-organization-boundary",
++   "src\\components\\features\\settings",
++   "src\\routes\\app-settings",
++   "src\\routes\\llm-settings",
++   "src\\routes\\mcp-settings",
++   "src\\routes\\secrets-settings",
++   "src\\components\\shared\\buttons\\styled-tooltip",
++   "src\\components\\shared\\buttons\\back-nav-button-content",
++   "src\\components\\shared\\action-tooltip",
++   "src\\components\\shared\\buttons\\copy-to-clipboard-button",
++   "src\\components\\shared\\modals\\modal-backdrop",
++   "src\\components\\shared\\modals\\modal-body",
++   "src\\components\\shared\\buttons\\modal-button",
++   "src\\components\\shared\\modals\\confirmation-modals\\base-modal",
++   "src\\components\\shared\\modals\\confirmation-modals\\danger-modal",
++   "src\\components\\shared\\modals\\settings\\model-selector",
++   "src\\components\\shared\\modals\\settings\\settings-form",
++   "src\\components\\features\\sidebar\\sidebar",
++   "src\\components\\features\\sidebar\\user-avatar",
++   "src\\components\\features\\conversation-panel\\conversation-panel",
++   "src\\components\\features\\conversation-panel\\conversation-panel-wrapper",
++   "src\\components\\features\\terminal\\terminal",
++   "src\\components\\providers",
++   "src\\i18n",
++   "src\\mocks\\should-start-mock-worker",
++   "src\\hooks\\chat\\use-draft-persistence",
++   "src\\hooks\\mutation\\conversation-mutation-utils",
++   "src\\hooks\\query\\use-settings",
++   "src\\hooks\\query\\query-keys",
++   "src\\hooks\\query\\use-user-conversation",
++   "src\\hooks\\query\\use-is-authed",
++   "src\\hooks\\use-user-providers",
++   "src\\hooks\\query\\use-automation-detail",
++   "src\\hooks\\query\\use-cloud-sandbox",
++   "src\\hooks\\query\\use-repository-branches",
++   "src\\hooks\\query\\use-search-branches",
++   "src\\hooks\\query\\use-cloud-organizations",
++   "src\\hooks\\use-conversation-id",
++   "src\\hooks\\query\\use-active-conversation",
++   "src\\hooks\\query\\use-verified-models",
++   "src\\hooks\\query\\use-app-installations",
++   "src\\types\\git",
++   "src\\types\\settings",
++   "src\\hooks\\query\\use-native-git-integrations",
++   "src\\hooks\\query\\use-workspace-file-discovery",
++   "src\\hooks\\use-drag-resize",
++   "src\\hooks\\query\\use-cloud-current-user-id",
++   "src\\hooks\\mutation\\use-delete-conversation",
++   "src\\hooks\\mutation\\use-unified-stop-conversation",
++   "src\\hooks\\mutation\\use-update-conversation-public-flag",
++   "src\\hooks\\use-download-conversation",
++   "src\\hooks\\use-select-conversation-tab",
++   "src\\i18n\\resources",
++   "src\\i18n\\translation.json",
++   "src\\lib",
++   "src\\components\\browser",
++   "src\\components\\conversation",
++   "src\\components\\files",
++   "src\\components\\settings",
++   "src\\components\\sidebar",
++   "src\\components\\terminal",
++   "src\\query-client-config",
++   "src\\styles\\agent-server-ui-style-scope",
++   "src\\types\\canvas-extension",
++   "src\\hooks\\use-telemetry",
++   "src\\manifests\\types",
++   "src\\manifests\\interface-validation",
++   "src\\manifests\\manifest-sources",
++   "src\\manifests\\automation-interface",
++   "src\\manifests\\manifest-local-validation",
++   "src\\manifests\\manifest-template",
++   "src\\manifests\\automation-setup",
++   "src\\manifests\\manifest-bundle",
++   "src\\manifests\\manifest-validation",
++   "src\\manifests\\manifest-registry",
++   "src\\mocks\\automations.mock",
++   "src\\mocks\\automation-runs.mock",
++   "src\\mocks\\handlers",
++   "src\\mocks\\file-service-handlers",
++   "src\\mocks\\secrets-handlers",
++   "src\\mocks\\agent-profiles-handlers",
++   "src\\mocks\\git-repository-handlers",
++   "src\\mocks\\settings-handlers",
++   "src\\mocks\\conversation-handlers",
++   "src\\mocks\\auth-handlers",
++   "src\\mocks\\feedback-handlers",
++   "src\\mocks\\analytics-handlers",
++   "src\\mocks\\automation-handlers",
++   "src\\mocks\\mcp-handlers",
++   "src\\mocks\\workspaces-handlers",
++   "src\\mocks\\canvas-extensions-handlers",
++   "src\\i18n\\declaration",
++   "src\\utils\\retrieve-axios-error-message",
++   "src\\utils\\custom-toast-handlers",
++   "src\\utils\\rate-limit-retry",
++   "src\\routes\\+types\\automation-setup-route",
++   "src\\wrapper\\event-handler",
++   "src\\routes\\home",
++   "src\\routes\\mcp",
++   "src\\routes\\react-router-navigation-provider",
++   "src\\routes\\+types\\settings",
++   "src\\themes\\color-theme\\types",
++   "src\\themes\\color-theme\\definitions\\openhands-deepsea",
++   "src\\themes\\color-theme\\definitions\\openhands-neutral",
++   "src\\themes\\color-theme\\definitions\\openhands-neo",
++   "src\\themes\\color-theme\\definitions\\light-plus",
++   "src\\themes\\color-theme\\definitions\\solarized-light",
++   "src\\themes\\color-theme\\palettes\\neutral",
++   "src\\themes\\color-theme\\definitions",
++   "src\\themes\\color-theme\\runtime",
++   "src\\themes\\color-themes",
++   "src\\types\\agent-server\\core\\base\\base",
++   "src\\types\\agent-server\\core\\base\\common",
++   "src\\types\\agent-server\\core\\base\\action",
++   "src\\types\\agent-server\\core\\base\\critic",
++   "src\\types\\agent-server\\core\\base\\event",
++   "src\\types\\agent-server\\core\\base\\observation",
++   "src\\types\\agent-server\\core\\events\\acp-tool-call-event",
++   "src\\types\\agent-server\\core\\events\\action-event",
++   "src\\types\\agent-server\\core\\events\\condensation-event",
++   "src\\types\\agent-server\\core\\events\\conversation-state-event",
++   "src\\types\\agent-server\\core\\events\\hook-execution-event",
++   "src\\types\\agent-server\\core\\events\\message-event",
++   "src\\types\\agent-server\\core\\events\\observation-event",
++   "src\\types\\agent-server\\core\\events\\pause-event",
++   "src\\types\\agent-server\\core\\events\\streaming-delta-event",
++   "src\\types\\agent-server\\core\\events\\system-event",
++   "src\\types\\agent-server\\core\\base",
++   "src\\types\\agent-server\\core\\events",
++   "src\\types\\agent-server\\core\\openhands-event",
++   "src\\types\\agent-server\\core\\events\\index",
++   "src\\types\\agent-server\\core",
++   "src\\types\\mcp-auth",
++   "src\\ui\\dropdown\\types",
++   "src\\ui\\dropdown\\loading-spinner",
++   "src\\ui\\dropdown\\clear-button",
++   "src\\ui\\dropdown\\toggle-button",
++   "src\\ui\\dropdown\\dropdown-menu",
++   "src\\ui\\dropdown\\dropdown-input",
++   "src\\utils\\path-utils",
++   "src\\utils\\toast-duration",
++   "src\\utils\\user-facing-error",
++   "src\\utils\\api-error-message",
++   "src\\utils\\mcp-config",
++   "src\\utils\\type-guards",
++   "src\\utils\\sdk-http-error",
++   "src\\utils\\suggestions\\non-repo-suggestions",
++   "src\\utils\\suggestions\\repo-suggestions",
++   "src\\hooks\\use-handle-ws-events",
++   "src\\hooks\\use-handle-runtime-active",
++ ]
+
+ ❯ .agents/skills/verify-openhands/scripts/control-openhands.test.mjs:447:10
+    445|   };
+    446|   walk(join(repo, "src"));
+    447|   assert.deepEqual([...missing], []);
+       |          ^
+    448| });
+    449|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/16]⎯
+
+ FAIL  |jsdom| .agents/skills/verify-openhands/scripts/control-openhands.test.mjs > the tmux directory of a run comes from its whole path
+AssertionError: The input did not match the regular expression /^\/tmp\/ohv-tmux-[0-9a-f]{10}$/. Input:
+
+'\\tmp\\ohv-tmux-5edfa0d5ab'
+
+
+- Expected:
+/^\/tmp\/ohv-tmux-[0-9a-f]{10}$/
+
++ Received:
+"\\tmp\\ohv-tmux-5edfa0d5ab"
+
+ ❯ .agents/skills/verify-openhands/scripts/control-openhands.test.mjs:934:10
+    932|   );
+    933|   assert.equal(tmuxPathFor("/tmp/x/run-1"), tmuxPathFor("/tmp/x/run-1"…
+    934|   assert.match(tmuxPathFor("/tmp/x/run-1"), /^\/tmp\/ohv-tmux-[0-9a-f]…
+       |          ^
+    935| });
+    936|
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/16]⎯
+
+
+ Test Files  8 failed | 787 passed (795)
+      Tests  16 failed | 8492 passed | 33 skipped | 7 todo (8548)
+   Start at  09:54:44
+   Duration  544.08s (import 33%, environment 30%, tests 21%, setup 13%, transform 2%)
+

@@ -1,0 +1,963 @@
+
+> @openhands/agent-canvas@1.25.0 prelint
+> npm run make-i18n
+
+
+> @openhands/agent-canvas@1.25.0 make-i18n
+> node scripts/make-i18n-translations.cjs
+
+
+> @openhands/agent-canvas@1.25.0 lint
+> npm run typecheck && eslint src && prettier --check src/**/*.{ts,tsx}
+
+
+> @openhands/agent-canvas@1.25.0 typecheck
+> react-router typegen && tsc
+
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\conversation-events\chat\event-message-components\corrective-nudge-message.tsx
+  19:19  warning  "mt-[5px]" hardcodes an off-token value. Use "mt-1.25" instead (same value, on the scale)         shadcn/no-arbitrary-values
+  22:23  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\conversation-events\chat\event-message-components\critic-result-display.tsx
+   80:23  warning  "text-neutral-200" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                     shadcn/no-raw-colors
+  100:23  warning  "text-neutral-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  103:37  warning  "text-neutral-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  199:20  warning  "border-neutral-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  201:25  warning  "text-neutral-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  211:25  warning  "text-neutral-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  225:34  warning  "fill-neutral-400" uses the raw Tailwind palette. Nearest theme tokens: fill-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                      shadcn/no-raw-colors
+  227:36  warning  "fill-neutral-400" uses the raw Tailwind palette. Nearest theme tokens: fill-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                      shadcn/no-raw-colors
+  239:21  warning  "text-neutral-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\conversation-events\chat\task-tracking\task-item.tsx
+  21:38  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  23:47  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  27:38  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  46:38  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                          shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\conversation-events\chat\task-tracking\task-list-section.tsx
+  20:36  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  20:36  warning  "tracking-[0.11px]" hardcodes an off-token value. Use a theme token or scale value instead        shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\analytics\telemetry-consent-banner.tsx
+  88:24  warning  "text-neutral-400" uses the raw Tailwind palette. Nearest theme tokens: text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\add-automation-menu.tsx
+  94:19  warning  "min-w-[10rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\automation-health-badge.tsx
+  35:9  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\automation-list-row.tsx
+  141:26  warning  "grid-cols-[auto_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\automation-view-toggle.tsx
+  108:60  warning  "min-w-[10rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\create-instructions.tsx
+  23:9  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\dashboard\automations-dashboard-controls.tsx
+  122:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  140:21  warning  "min-w-[16rem]" hardcodes an off-token value. Use a theme token or scale value instead            shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\detail\run-logs-modal.tsx
+  117:22  warning  "sm:grid-cols-[5rem_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  122:27  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)            shadcn/no-arbitrary-values
+  127:22  warning  "sm:grid-cols-[5rem_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  151:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)            shadcn/no-arbitrary-values
+  159:22  warning  "sm:grid-cols-[5rem_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  251:26  warning  "border-[var(--oh-primary)]" hardcodes an off-token value. Use a theme token or scale value instead         shadcn/no-arbitrary-values
+  269:22  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead                       shadcn/no-arbitrary-values
+  324:21  warning  "min-h-[12rem]" hardcodes an off-token value. Use a theme token or scale value instead                      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\detail\run-phase.tsx
+  196:20  warning  "max-w-[28rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  196:38  warning  "max-w-[12rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\detail\run-status-badge.tsx
+  184:13  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\detail\script-section.tsx
+   99:27  warning  "border-[var(--oh-border)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  101:32  warning  "border-[var(--oh-border)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  104:37  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)    shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\git-sync\git-sync-activity-row.tsx
+  61:34  warning  "bg-green-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-success/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                         shadcn/no-raw-colors
+  61:34  warning  "text-green-300" uses the raw Tailwind palette. Nearest theme tokens: text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                         shadcn/no-raw-colors
+  62:21  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                               shadcn/no-raw-colors
+  62:21  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\git-sync\git-sync-config-form.tsx
+  421:23  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                      shadcn/no-raw-colors
+  421:23  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                  shadcn/no-raw-colors
+  421:23  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color     shadcn/no-raw-colors
+  427:26  warning  "text-red-300/70" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\git-sync\git-sync-error-banner.tsx
+  20:17  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                      shadcn/no-raw-colors
+  20:17  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                  shadcn/no-raw-colors
+  20:17  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color     shadcn/no-raw-colors
+  27:22  warning  "text-red-300/70" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\import-automation-modal.tsx
+  171:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead                     shadcn/no-arbitrary-values
+  171:19  warning  "w-[min(36rem,calc(100vw-2rem))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\kebab-menu.tsx
+  99:60  warning  "min-w-[10rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\automations\recommended-automations-rail.tsx
+  204:13  warning  "from-[var(--oh-scroll-fade-from,var(--oh-color-base))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  215:13  warning  "from-[var(--oh-scroll-fade-from,var(--oh-color-base))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\api-key-entry-screen.tsx
+  121:29  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                shadcn/no-raw-colors
+  122:29  warning  "text-green-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-success, text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\backend-form-modal.tsx
+   262:21  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                     shadcn/no-raw-colors
+   262:21  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                 shadcn/no-raw-colors
+   264:27  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color                    shadcn/no-raw-colors
+   275:25  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color                    shadcn/no-raw-colors
+   650:23  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                     shadcn/no-raw-colors
+   650:23  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                 shadcn/no-raw-colors
+   650:23  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color                    shadcn/no-raw-colors
+   920:21  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                     shadcn/no-raw-colors
+   920:21  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                 shadcn/no-raw-colors
+   920:21  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color                    shadcn/no-raw-colors
+  1050:19  warning  "transition-[grid-template-rows]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1051:34  warning  "grid-rows-[1fr]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1051:54  warning  "grid-rows-[0fr]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1132:9   warning  "focus-visible:outline-blue-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  1193:17  warning  "transition-[height]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                           shadcn/no-arbitrary-values
+  1254:13  warning  "focus-visible:outline-blue-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  1275:11  warning  "transition-[grid-template-rows]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1276:24  warning  "grid-rows-[1fr]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1276:44  warning  "grid-rows-[0fr]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1398:19  warning  "min-h-[13.5rem]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                               shadcn/no-arbitrary-values
+  1402:19  warning  "before:bg-[radial-gradient(75%_75%_at_50%_50%,rgba(255,255,255,0.1)_0%,rgba(255,255,255,0)_70%)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                              shadcn/no-arbitrary-values
+  1545:13  warning  "max-h-[92vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                                  shadcn/no-arbitrary-values
+  1572:31  warning  "align-[-0.125em]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                              shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\backend-row.tsx
+   57:9   warning  "text-green-300" uses the raw Tailwind palette. Nearest theme tokens: text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                            shadcn/no-raw-colors
+   59:11  warning  "text-red-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color     shadcn/no-raw-colors
+  108:25  warning  "text-red-300/80" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  114:25  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                                                        shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\backend-version.tsx
+  33:17  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\device-flow-auth.tsx
+  312:25  warning  "text-blue-400" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color   shadcn/no-raw-colors
+  333:17  warning  "border-red-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  333:17  warning  "bg-red-900/20" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color   shadcn/no-raw-colors
+  337:20  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                    shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\environment-switch-overlay.tsx
+  156:17  warning  "z-[2147483646]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\backends\manage-backends-modal.tsx
+  148:13  warning  "max-h-[70vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\canvas-extensions\add-canvas-extension-modal.tsx
+  51:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  51:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\canvas-extensions\canvas-extension-card.tsx
+  85:21  warning  "grid-cols-[auto_1fr]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\btw-messages.tsx
+  22:17  warning  "max-h-[40vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\change-agent-button.tsx
+  168:11  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                                                                                                                                                                                   shadcn/no-arbitrary-values
+  172:15  warning  "border-[#597FF4]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css    shadcn/no-arbitrary-values
+  172:15  warning  "bg-[#4A67BD]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css        shadcn/no-arbitrary-values
+  178:13  warning  "hover:bg-[#597FF4]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  188:38  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                               shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-interface.tsx
+  554:27  warning  "text-neutral-400" uses the raw Tailwind palette. Nearest theme tokens: text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-markdown-path-code.tsx
+  96:9  warning  "px-[0.4em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  96:9  warning  "py-[0.2em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-message.tsx
+  130:17  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                             shadcn/no-arbitrary-values
+  158:11  warning  "border-[#597ff4]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  235:21  warning  "z-[1]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                               shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-send-button.tsx
+  41:21  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-status-indicator.tsx
+  18:9   warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)        shadcn/no-arbitrary-values
+  25:21  warning  "animate-[pulse_1.2s_ease-in-out_infinite]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  41:21  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                    shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\chat-suggestions.tsx
+  28:29  warning  "text-[32px]" hardcodes an off-token value. Nearest on the scale: text-3xl (30px), text-4xl (36px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-actions.tsx
+  347:17  warning  "top-[-4px]" hardcodes an off-token value. Use a theme token or scale value instead    shadcn/no-arbitrary-values
+  413:15  warning  "top-[-4px]" hardcodes an off-token value. Use a theme token or scale value instead    shadcn/no-arbitrary-values
+  427:25  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-container.tsx
+  73:9   warning  "rounded-[15px]" hardcodes an off-token value. Nearest on the scale: rounded-2xl (16px), rounded-xl (12px)                                                                                                                                                                                   shadcn/no-arbitrary-values
+  74:40  warning  "border-[#597FF4]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-grip.tsx
+  35:21  warning  "z-[1]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  44:11  warning  "z-[2]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-llm-profile-picker.tsx
+   79:40  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  261:21  warning  "z-[60]" hardcodes an off-token value. Use a theme token or scale value instead                   shadcn/no-arbitrary-values
+  261:21  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-model.tsx
+   77:40  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  192:21  warning  "z-[60]" hardcodes an off-token value. Use a theme token or scale value instead                   shadcn/no-arbitrary-values
+  192:21  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\chat-input-profile-picker.tsx
+   58:40  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  103:42  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\context-window-meter.tsx
+  104:13  warning  "z-[60]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\components\context-window-ring.tsx
+  77:19  warning  "transition-[stroke-dashoffset,stroke]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\drag-over.tsx
+  16:23  warning  "rotate-[-27deg]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  16:23  warning  "top-[-40px]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+  16:23  warning  "left-[-10px]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+  21:23  warning  "top-[-16px]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+  21:23  warning  "left-[-20px]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\git-control-bar-branch-button.tsx
+  49:9   warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+  52:13  warning  "border-[rgba(71,74,84,0.50)]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\git-control-bar-repo-button.tsx
+  57:11  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+  84:9   warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+  85:9   warning  "border-[rgba(71,74,84,0.50)]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\model-messages.tsx
+   22:20  warning  "border-neutral-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+   28:19  warning  "hover:bg-neutral-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+   30:25  warning  "text-neutral-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color      shadcn/no-raw-colors
+   33:25  warning  "text-neutral-200" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                       shadcn/no-raw-colors
+   39:25  warning  "border-neutral-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+   40:26  warning  "text-neutral-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color      shadcn/no-raw-colors
+   83:31  warning  "text-neutral-400" uses the raw Tailwind palette. Nearest theme tokens: text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                        shadcn/no-raw-colors
+   91:41  warning  "text-neutral-200" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                       shadcn/no-raw-colors
+   91:41  warning  "bg-neutral-800" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  120:33  warning  "text-neutral-300" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color      shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\plan-preview.tsx
+   70:20  warning  "border-[#597FF4]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+   74:36  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+   74:36  warning  "tracking-[0.11px]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                   shadcn/no-arbitrary-values
+   84:38  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+   84:38  warning  "tracking-[0.11px]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                   shadcn/no-arbitrary-values
+   94:19  warning  "text-[15px]" hardcodes an off-token value. Nearest on the scale: text-sm (14px), text-base (16px)                                                                                                                                                                                           shadcn/no-arbitrary-values
+  108:27  warning  "text-[#4a67bd]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css    shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\success-indicator.tsx
+  14:21  warning  "fill-yellow-500" uses the raw Tailwind palette. Nearest theme tokens: fill-logo, fill-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\task-tracking\task-item.tsx
+  25:38  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  27:47  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  31:38  warning  "text-[#ffffff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  50:38  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                          shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\tool-visualizers\primitives\key-value-grid.tsx
+  14:20  warning  "grid-cols-[auto_1fr]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\tool-visualizers\primitives\markdown-file-preview.tsx
+  171:19  warning  "[--oh-scroll-fade-from:var(--oh-surface)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  186:38  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                    shadcn/no-arbitrary-values
+  186:38  warning  "tracking-[0.11px]" hardcodes an off-token value. Use a theme token or scale value instead                          shadcn/no-arbitrary-values
+  197:40  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                    shadcn/no-arbitrary-values
+  197:40  warning  "tracking-[0.11px]" hardcodes an off-token value. Use a theme token or scale value instead                          shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\uploaded-file.tsx
+  43:27  warning  "text-[9px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\user-message-body.tsx
+  81:11  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\chat\workspace-mode-selector.tsx
+  75:11  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                                                                                                                                                                                             shadcn/no-arbitrary-values
+  76:11  warning  "border-[rgba(71,74,84,0.50)]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\command-menu\command-menu-trigger.tsx
+  66:24  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  66:24  warning  "tracking-[0.12em]" hardcodes an off-token value. Use a theme token or scale value instead        shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\command-menu\command-menu.tsx
+  201:17  warning  "z-[70]" hardcodes an off-token value. Use a theme token or scale value instead                                                                         shadcn/no-arbitrary-values
+  201:17  warning  "pt-[10vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                      shadcn/no-arbitrary-values
+  209:19  warning  "backdrop-blur-[2px]" hardcodes an off-token value. Use a theme token or scale value instead                                                            shadcn/no-arbitrary-values
+  215:11  warning  "max-h-[min(720px,78vh)]" hardcodes an off-token value. Use a theme token or scale value instead                                                        shadcn/no-arbitrary-values
+  217:11  warning  "shadow-[0_24px_90px_rgba(0,0,0,0.52),0_0_0_1px_rgba(255,255,255,0.03)_inset]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  251:26  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                        shadcn/no-arbitrary-values
+  251:26  warning  "tracking-[0.18em]" hardcodes an off-token value. Use a theme token or scale value instead                                                              shadcn/no-arbitrary-values
+  285:34  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                        shadcn/no-arbitrary-values
+  285:34  warning  "tracking-[0.18em]" hardcodes an off-token value. Use a theme token or scale value instead                                                              shadcn/no-arbitrary-values
+  305:29  warning  "shadow-[0_0_0_1px_color-mix(in_srgb,var(--oh-contrast)_8%,transparent)_inset]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  338:43  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                        shadcn/no-arbitrary-values
+  338:43  warning  "tracking-[0.14em]" hardcodes an off-token value. Use a theme token or scale value instead                                                              shadcn/no-arbitrary-values
+  398:24  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                        shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\context-menu\context-menu-icon-text-with-description.tsx
+  37:34  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\controls\agent-status.tsx
+  150:19  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)              shadcn/no-arbitrary-values
+  157:11  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\controls\server-status.tsx
+  57:25  warning  "text-[13px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\controls\tools-context-menu.tsx
+   96:17  warning  "left-[-16px]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  117:15  warning  "top-[-4px]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+  129:25  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  159:17  warning  "top-[-6px]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+  190:15  warning  "top-[-4px]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+  215:27  warning  "stroke-[1.75]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\advanced-conversation-options-modal.tsx
+  131:24  warning  "w-[calc(100%+3rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  150:23  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead         shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\budget-progress-bar.tsx
+  20:25  warning  "bg-red-500" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error, bg-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                       shadcn/no-raw-colors
+  20:40  warning  "bg-blue-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\cloud-new-conversation-menu.tsx
+  319:15  warning  "max-h-[40vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                      shadcn/no-arbitrary-values
+  333:27  warning  "text-[#F87171]" hardcodes a color. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-active-tag-filters.tsx
+  50:5   warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  96:19  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-card\conversation-card-context-menu.tsx
+  101:13  warning  "max-w-[min(280px,100vw-16px)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  102:13  warning  "z-[200]" hardcodes an off-token value. Use a theme token or scale value instead                        shadcn/no-arbitrary-values
+  160:31  warning  "stroke-[1.75]" hardcodes an off-token value. Use a theme token or scale value instead                  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-card\conversation-card-preview.tsx
+  137:17  warning  "max-w-[min(280px,90vw)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-card\conversation-card.tsx
+  288:17  warning  "min-w-[3.75rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-card\conversation-tag-chips.tsx
+  244:19  warning  "z-[-1]" hardcodes an off-token value. Use a theme token or scale value instead                                    shadcn/no-arbitrary-values
+  312:15  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead                                  shadcn/no-arbitrary-values
+  312:15  warning  "min-w-[10rem]" hardcodes an off-token value. Use a theme token or scale value instead                             shadcn/no-arbitrary-values
+  312:15  warning  "max-w-[16rem]" hardcodes an off-token value. Use a theme token or scale value instead                             shadcn/no-arbitrary-values
+  332:29  warning  "grid-cols-[minmax(0,auto)_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  332:29  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                   shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-layouts-menu.tsx
+  258:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-panel-wrapper.tsx
+  23:9  warning  "z-[100]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\conversation-panel.tsx
+  1085:13  warning  "w-[calc(100%+0.625rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\edit-conversation-tags-modal.tsx
+  235:25  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\exit-conversation-modal.tsx
+  34:23  warning  "bg-[#C63143]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\hook-event-item.tsx
+  24:3  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\hook-matcher-content.tsx
+  12:3  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\hooks-modal.tsx
+  50:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  62:24  warning  "h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\local-new-conversation-menu.tsx
+  216:25  warning  "text-[var(--oh-text-secondary)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  223:15  warning  "max-h-[40vh]" hardcodes an off-token value. Use a theme token or scale value instead                     shadcn/no-arbitrary-values
+  235:33  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead           shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\menu-heading.tsx
+  6:3  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\menu-row.tsx
+  71:27  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\plugins-modal.tsx
+  40:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\skill-item.tsx
+  20:3  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\skill-triggers.tsx
+  25:23  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\skills-modal-section.tsx
+  19:38  warning  "tracking-[0.01em]" hardcodes an off-token value. Use a theme token or scale value instead        shadcn/no-arbitrary-values
+  22:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\skills-modal.tsx
+  75:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  87:24  warning  "h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation-panel\system-message-modal.tsx
+  46:13  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  66:28  warning  "h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-git-actions-menu.tsx
+  111:17  warning  "min-w-[8rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-main\conversation-main.tsx
+  70:21  warning  "transition-[width]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-name-context-menu.tsx
+   83:17  warning  "translate-x-[calc(1rem-1px)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  189:35  warning  "translate-x-[34%]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+  216:29  warning  "stroke-[1.75]" hardcodes an off-token value. Use a theme token or scale value instead                 shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-name-with-status.tsx
+  126:25  warning  "ml-[3.5px]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-overview-context-menu.tsx
+  362:21  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-overview-drawer.tsx
+  53:52  warning  "max-h-[min(50vh,420px)]" hardcodes an off-token value. Use a theme token or scale value instead         shadcn/no-arbitrary-values
+  70:15  warning  "transition-[transform,opacity]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-overview-panel.tsx
+  51:23  warning  "max-w-[45%]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-tabs\conversation-planner-build-bar.tsx
+  55:36  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-tabs\conversation-tabs-context-menu.tsx
+  188:21  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-tabs\conversation-tabs.tsx
+  321:21  warning  "left-[-10000px]" hardcodes an off-token value. Use a theme token or scale value instead          shadcn/no-arbitrary-values
+  452:40  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\conversation-tabs\drawer-vscode-link.tsx
+  45:9  warning  "rounded-[7px]" hardcodes an off-token value. Nearest on the scale: rounded-md (6px), rounded-lg (8px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\usage-panel\compact-context-button.tsx
+  39:25  warning  "text-amber-500" uses the raw Tailwind palette. Nearest theme tokens: text-logo, text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\conversation\usage-panel\context-meter.tsx
+  70:17  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  72:19  warning  "text-amber-500" uses the raw Tailwind palette. Nearest theme tokens: text-logo, text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color       shadcn/no-raw-colors
+  85:17  warning  "bg-red-500" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error, bg-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  87:19  warning  "bg-amber-500" uses the raw Tailwind palette. Nearest theme tokens: bg-logo, bg-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color             shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\diff-viewer\commit-row.tsx
+  48:25  warning  "w-[7ch]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\diff-viewer\editor-container.tsx
+  19:9  warning  "h-[var(--editor-height)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\diff-viewer\uncommitted-changes-row.tsx
+  38:25  warning  "w-[7ch]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\files-tab\file-content-viewer.tsx
+  198:19  warning  "[--oh-scroll-fade-from:var(--oh-surface)]" hardcodes an off-token value. Use a theme token or scale value instead           shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-body:var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead              shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-bold:var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead              shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-headings:var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead          shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-lead:var(--oh-text-secondary)]" hardcodes an off-token value. Use a theme token or scale value instead          shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-counters:var(--oh-text-secondary)]" hardcodes an off-token value. Use a theme token or scale value instead      shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-quotes:var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead            shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-quote-borders:var(--oh-border-subtle)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-bullets:var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-hr:var(--oh-border-subtle)]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-captions:var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead               shadcn/no-arbitrary-values
+  203:13  warning  "[--tw-prose-kbd:var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead               shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\files-tab\file-quick-row.tsx
+  23:3  warning  "[scrollbar-width:none]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+  23:3  warning  "[-ms-overflow-style:none]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\files-tab\workspace-file-discovery-settings.tsx
+  57:19  warning  "max-h-[90vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\featured-automations\automation-run-activity-sparkline.tsx
+   69:13  warning  "rounded-[1px]" hardcodes an off-token value. Nearest on the scale: rounded-xs (2px), rounded-sm (4px)                 shadcn/no-arbitrary-values
+  133:13  warning  "rounded-[1px]" hardcodes an off-token value. Nearest on the scale: rounded-xs (2px), rounded-sm (4px)                 shadcn/no-arbitrary-values
+  136:13  warning  "group-hover/spark-bar:scale-x-[1.4]" hardcodes an off-token value. Use a theme token or scale value instead           shadcn/no-arbitrary-values
+  136:13  warning  "group-hover/spark-bar:scale-y-[1.15]" hardcodes an off-token value. Use a theme token or scale value instead          shadcn/no-arbitrary-values
+  137:13  warning  "group-focus-visible/spark-bar:scale-x-[1.4]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  137:13  warning  "group-focus-visible/spark-bar:scale-y-[1.15]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\featured-automations\pinned-automation-card.tsx
+  159:11  warning  "shadow-[inset_0_2px_0_0_var(--oh-focus)]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  162:11  warning  "shadow-[inset_0_-2px_0_0_var(--oh-focus)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\featured-automations\running-automations-list.tsx
+  118:26  warning  "grid-cols-[auto_minmax(0,1fr)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\home-chat-launcher.tsx
+  241:17  warning  "pt-[max(4rem,28vh)]" hardcodes an off-token value. Use a theme token or scale value instead              shadcn/no-arbitrary-values
+  258:38  warning  "text-[var(--oh-text-secondary)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\home-header\home-header-title.tsx
+  15:19  warning  "text-[var(--oh-text-tertiary)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\llm-not-configured-banner.tsx
+  37:44  warning  "text-yellow-400" uses the raw Tailwind palette. Nearest theme tokens: text-logo. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\shared\clear-button.tsx
+  27:9  warning  "text-[#fff]" hardcodes a color. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\shared\error-message.tsx
+  17:20  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\shared\generic-dropdown-menu.tsx
+   92:11  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead                  shadcn/no-arbitrary-values
+  103:19  warning  "max-h-[calc(15rem-3rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\workspace-dropdown\folder-browser-modal.tsx
+   30:3   warning  "grid-cols-[minmax(0,1fr)_4rem]" hardcodes an off-token value. Use a theme token or scale value instead                                                                              shadcn/no-arbitrary-values
+   30:3   warning  "md:grid-cols-[1fr_120px]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                    shadcn/no-arbitrary-values
+   60:22  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                     shadcn/no-arbitrary-values
+  322:29  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\home\workspace-dropdown\manage-workspaces-modal.tsx
+   82:13  warning  "max-h-[70vh]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+  144:32  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\images\image-lightbox.tsx
+  47:21  warning  "max-h-[90vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  47:21  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\launch\plugin-launch-modal.tsx
+  136:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\manifest\manifest-form-field.tsx
+  185:22  warning  "border-red-500" uses the raw Tailwind palette. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                   shadcn/no-raw-colors
+  211:13  warning  "file:bg-neutral-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  212:22  warning  "border-red-500" uses the raw Tailwind palette. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                   shadcn/no-raw-colors
+  240:22  warning  "border-red-500" uses the raw Tailwind palette. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                   shadcn/no-raw-colors
+  284:25  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                         shadcn/no-raw-colors
+  306:17  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                         shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\manifest\manifest-setup-dialog.tsx
+  441:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                shadcn/no-arbitrary-values
+  441:19  warning  "w-[92vw]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                    shadcn/no-arbitrary-values
+  598:25  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\markdown\anchor.tsx
+  12:17  warning  "text-blue-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\markdown\code.tsx
+  37:13  warning  "px-[0.4em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  37:13  warning  "py-[0.2em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  47:24  warning  "p-[1em]" hardcodes an off-token value. Use a theme token or scale value instead     shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\markdown\headings.tsx
+  24:19  warning  "-tracking-[0.01em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\markdown\markdown-table-scroll.tsx
+  72:11  warning  "from-[var(--oh-scroll-fade-from,var(--oh-color-base))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  84:11  warning  "from-[var(--oh-scroll-fade-from,var(--oh-color-base))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\markdown\plan-components.tsx
+  125:11  warning  "text-blue-500" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-logo-badge.tsx
+  54:9   warning  "shadow-[inset_0_1px_0_color-mix(in_srgb,var(--oh-contrast)_18%,transparent)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  71:21  warning  "p-[22%]" hardcodes an off-token value. Use a theme token or scale value instead                                                                       shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\custom-server-editor.tsx
+  243:21  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  243:21  warning  "max-h-[90vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\install-server-modal.tsx
+  545:26  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  567:30  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  618:30  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  667:28  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  700:28  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  714:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                shadcn/no-arbitrary-values
+  714:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                shadcn/no-arbitrary-values
+  811:29  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\mcp-logo-stack-badge.tsx
+  8:3  warning  "shadow-[inset_0_1px_0_color-mix(in_srgb,var(--oh-contrast)_18%,transparent)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\mcp-server-health.tsx
+  142:24  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\native-integration-panel.tsx
+  135:53  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\mcp-page\save-as-secret-toggle.tsx
+  25:13  warning  "border-green-500/35" uses the raw Tailwind palette. Nearest theme tokens: border-status-success/35. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  25:13  warning  "bg-green-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-success/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color          shadcn/no-raw-colors
+  44:15  warning  "border-green-500" uses the raw Tailwind palette. Nearest theme tokens: border-status-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  44:15  warning  "bg-green-500" uses the raw Tailwind palette. Nearest theme tokens: bg-status-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                shadcn/no-raw-colors
+  58:11  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                      shadcn/no-arbitrary-values
+  60:15  warning  "text-green-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color            shadcn/no-raw-colors
+  60:15  warning  "border-green-500/35" uses the raw Tailwind palette. Nearest theme tokens: border-status-success/35. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  75:21  warning  "text-[9px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                       shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\onboarding\onboarding-modal.tsx
+  319:13  warning  "max-h-[90vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\onboarding\steps\check-backend-step.tsx
+  58:11  warning  "border-green-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-success/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                    shadcn/no-raw-colors
+  58:11  warning  "bg-green-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-success/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                            shadcn/no-raw-colors
+  61:33  warning  "text-green-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-success, text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                       shadcn/no-raw-colors
+  63:27  warning  "text-green-200" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                    shadcn/no-raw-colors
+  66:27  warning  "text-green-200/80" uses the raw Tailwind palette. Nearest theme tokens: text-contrast/80. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                              shadcn/no-raw-colors
+  83:19  warning  "border-red-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-error/40, border-danger/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                      shadcn/no-raw-colors
+  83:19  warning  "bg-red-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-error/10, bg-danger/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                  shadcn/no-raw-colors
+  85:32  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                     shadcn/no-raw-colors
+  87:27  warning  "text-red-200" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color     shadcn/no-raw-colors
+  90:27  warning  "text-red-200/80" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\onboarding\steps\say-hello-step.tsx
+   82:17  warning  "max-h-[calc(90vh-7rem)]" hardcodes an off-token value. Use a theme token or scale value instead            shadcn/no-arbitrary-values
+   96:19  warning  "rounded-[15px]" hardcodes an off-token value. Nearest on the scale: rounded-2xl (16px), rounded-xl (12px)  shadcn/no-arbitrary-values
+  134:21  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\onboarding\steps\setup-acp-secrets-step.tsx
+  198:21  warning  "text-amber-300" uses the raw Tailwind palette. Nearest theme tokens: text-logo. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\onboarding\steps\setup-llm-step.tsx
+  155:17  warning  "max-h-[calc(90vh-7rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\plugins\add-plugin-modal.tsx
+  55:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  55:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\plugins\plugin-detail-modal.tsx
+  45:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  45:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\plugins\plugin-picker-modal.tsx
+  34:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\plugins\plugin-picker-trigger.tsx
+  51:21  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\acp-auth-status-banner.tsx
+  63:19  warning  "border-green-500/40" uses the raw Tailwind palette. Nearest theme tokens: border-status-success/40. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                       shadcn/no-raw-colors
+  63:19  warning  "bg-green-500/10" uses the raw Tailwind palette. Nearest theme tokens: bg-status-success/10. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                               shadcn/no-raw-colors
+  63:19  warning  "text-green-200" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                       shadcn/no-raw-colors
+  65:26  warning  "text-green-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-success, text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                          shadcn/no-raw-colors
+  93:19  warning  "border-blue-500/40" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  93:19  warning  "bg-blue-500/10" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color      shadcn/no-raw-colors
+  93:19  warning  "text-blue-200" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color       shadcn/no-raw-colors
+  96:21  warning  "text-blue-400" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color       shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\acp-conflict-warnings.tsx
+  23:21  warning  "text-amber-300" uses the raw Tailwind palette. Nearest theme tokens: text-logo. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\acp-credentials-section.tsx
+  46:36  warning  "text-[#717888]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\agent-canvas-update-card.tsx
+  170:11  warning  "max-h-[80vh]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                           shadcn/no-arbitrary-values
+  214:30  warning  "border-[#3B82F6]/30" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  214:30  warning  "bg-[#1E3A5F]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css         shadcn/no-arbitrary-values
+  214:30  warning  "text-[#3B82F6]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css       shadcn/no-arbitrary-values
+  225:31  warning  "hover:text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                            shadcn/no-arbitrary-values
+  242:31  warning  "hover:text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                            shadcn/no-arbitrary-values
+  325:19  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                                shadcn/no-arbitrary-values
+  327:23  warning  "bg-[#1E3A5F]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css         shadcn/no-arbitrary-values
+  327:23  warning  "text-[#3B82F6]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css       shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\agent-canvas-version-modal.tsx
+  101:26  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                      shadcn/no-arbitrary-values
+  110:25  warning  "text-[#3B82F6]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  127:29  warning  "bg-[#1E3A5F]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css    shadcn/no-arbitrary-values
+  127:29  warning  "text-[#3B82F6]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  135:26  warning  "text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                             shadcn/no-arbitrary-values
+  144:27  warning  "hover:text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                       shadcn/no-arbitrary-values
+  152:28  warning  "text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                             shadcn/no-arbitrary-values
+  164:31  warning  "hover:text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                       shadcn/no-arbitrary-values
+  229:25  warning  "hover:text-[var(--oh-text)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                       shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\agent-canvas-version-tile.tsx
+  77:23  warning  "text-[#3B82F6]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\agent-profiles\agent-profiles-body.tsx
+  53:22  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\agent-profiles\agent-profiles-local-view.tsx
+  354:23  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\backend-synced-settings-badge.tsx
+  40:34  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\brand-button.tsx
+  60:11  warning  "text-[var(--oh-accent-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                shadcn/no-arbitrary-values
+  65:33  warning  "bg-red-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color          shadcn/no-raw-colors
+  65:33  warning  "hover:bg-red-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  67:11  warning  "text-red-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  67:11  warning  "hover:text-red-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\llm-profiles\add-models-modal.tsx
+  393:23  warning  "border-[var(--oh-border)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                 shadcn/no-arbitrary-values
+  393:23  warning  "bg-[var(--oh-background)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                 shadcn/no-arbitrary-values
+  421:25  warning  "border-[var(--oh-border)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                 shadcn/no-arbitrary-values
+  421:25  warning  "bg-[var(--oh-background)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                 shadcn/no-arbitrary-values
+  439:27  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                    shadcn/no-arbitrary-values
+  448:23  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                    shadcn/no-arbitrary-values
+  463:23  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                    shadcn/no-arbitrary-values
+  511:39  warning  "text-green-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-success, text-semantic-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  516:39  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\llm-profiles\profile-name-input.tsx
+  70:59  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\llm-profiles\profiles-body.tsx
+  135:22  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\llm-profiles\provider-connections-manager.tsx
+  59:24  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\llm-settings\openai-subscription-auth-card.tsx
+  207:25  warning  "tracking-[0.08em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\mcp-settings\mcp-server-form.tsx
+  477:30  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  705:17  warning  "text-green-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color           shadcn/no-raw-colors
+  706:17  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\meta-llm-profiles\meta-llm-settings-view.tsx
+  285:19  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+  320:23  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+  350:24  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  356:23  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\meta-llm-profiles\meta-profile-actions-menu.tsx
+   51:9  warning  "text-[var(--oh-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+   51:9  warning  "hover:bg-[var(--oh-interactive-hover)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  179:9  warning  "w-[160px]" hardcodes an off-token value. Use "w-40" instead (same value, on the scale)                          shadcn/no-arbitrary-values
+  179:9  warning  "border-[var(--oh-border-subtle)]" hardcodes an off-token value. Use a theme token or scale value instead        shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\meta-llm-profiles\meta-profile-editor.tsx
+  217:23  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  243:22  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+  272:22  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+  306:22  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+  329:26  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                      shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\meta-llm-profiles\meta-profile-row.tsx
+  55:21  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\secrets-settings\secret-form.tsx
+  167:30  warning  "text-red-500" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\settings-input.tsx
+   97:29  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  135:22  warning  "border-red-500" uses the raw Tailwind palette. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  144:23  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\settings-mobile-drawer.tsx
+  38:21  warning  "bg-opacity-50" is not a declared theme color. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more). To add a color, declare --color-<name> in src/tailwind.css first  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\settings-nav-header.tsx
+  16:34  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\settings-switch.tsx
+  60:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  60:27  warning  "font-[500]" hardcodes an off-token value. Use a theme token or scale value instead               shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\settings\upgrade-button.tsx
+  24:9  warning  "text-[9px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)               shadcn/no-arbitrary-values
+  24:9  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\sidebar\sidebar-layout.ts
+  66:5  warning  "z-[1]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\sidebar\sidebar-rail-body.tsx
+  367:31  warning  "z-[1]" hardcodes an off-token value. Use a theme token or scale value instead                    shadcn/no-arbitrary-values
+  378:27  warning  "bottom-[-4px]" hardcodes an off-token value. Use a theme token or scale value instead            shadcn/no-arbitrary-values
+  404:15  warning  "w-[calc(100%+0.625rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\sidebar\sidebar.tsx
+  210:11  warning  "transition-[width,min-width]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  244:15  warning  "w-[min(300px,85vw)]" hardcodes an off-token value. Use a theme token or scale value instead           shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\add-skill-modal.tsx
+   39:9   warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+  124:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+  124:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead             shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\build-skill-pills.tsx
+  142:21  warning  "border-[rgba(248,113,113,0.35)]" hardcodes a color. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css                                                                                                             shadcn/no-arbitrary-values
+  142:21  warning  "bg-[rgba(248,113,113,0.12)]" hardcodes a color. Nearest theme tokens: bg-status-error, bg-danger. Use one of those, or declare --color-<name> in src/tailwind.css                                                                                                                         shadcn/no-arbitrary-values
+  142:21  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                           shadcn/no-arbitrary-values
+  142:21  warning  "text-[#fca5a5]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  144:27  warning  "bg-[#fca5a5]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css    shadcn/no-arbitrary-values
+  180:29  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)                                                                                                                                                                                           shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\extensions-navigation.tsx
+  107:29  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-card-pill-row.tsx
+  192:19  warning  "z-[-1]" hardcodes an off-token value. Use a theme token or scale value instead         shadcn/no-arbitrary-values
+  244:15  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead       shadcn/no-arbitrary-values
+  244:15  warning  "max-w-[20rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-detail-modal.tsx
+  103:19  warning  "max-w-[90vw]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  103:19  warning  "max-h-[85vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-facet-rail.tsx
+  50:25  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-facet-row.tsx
+  49:11  warning  "rounded-[3px]" hardcodes an off-token value. Nearest on the scale: rounded-xs (2px), rounded-sm (4px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-filters-modal.tsx
+  43:24  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-icon-badge.tsx
+  18:9  warning  "shadow-[inset_0_1px_0_color-mix(in_srgb,var(--oh-contrast)_18%,transparent)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skill-type-badge.tsx
+  11:3  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\skills\skills-toolbar.tsx
+  74:27  warning  "text-[11px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\features\suggestions\suggestion-item.tsx
+  37:17  warning  "rounded-[15px]" hardcodes an off-token value. Nearest on the scale: rounded-2xl (16px), rounded-xl (12px)  shadcn/no-arbitrary-values
+  43:19  warning  "text-[15px]" hardcodes an off-token value. Nearest on the scale: text-sm (14px), text-base (16px)          shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\badge.tsx
+  11:9  warning  "text-[var(--oh-accent-foreground)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\buttons\circle-plus-check-toggle.tsx
+   96:17  warning  "bg-[rgba(248,113,113,0.14)]" hardcodes a color. Nearest theme tokens: bg-status-error, bg-danger. Use one of those, or declare --color-<name> in src/tailwind.css                    shadcn/no-arbitrary-values
+   96:17  warning  "text-[#ef4444]" hardcodes a color. Nearest theme tokens: text-danger, text-status-error. Use one of those, or declare --color-<name> in src/tailwind.css                             shadcn/no-arbitrary-values
+   96:17  warning  "hover:bg-[rgba(248,113,113,0.24)]" hardcodes a color. Nearest theme tokens: hover:bg-status-error, hover:bg-danger. Use one of those, or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  117:17  warning  "stroke-[2.5]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                 shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\buttons\styled-tooltip.tsx
+  53:11  warning  "z-[9999]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\hook-execution-event-message.tsx
+  107:24  warning  "text-amber-400" uses the raw Tailwind palette. Nearest theme tokens: text-logo, text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color       shadcn/no-raw-colors
+  123:24  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  141:26  warning  "text-amber-300" uses the raw Tailwind palette. Nearest theme tokens: text-logo. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                     shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\modals\modal-backdrop.tsx
+  54:20  warning  "z-[70]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\modals\settings\model-selector.tsx
+  22:3  warning  "text-[10px]" hardcodes an off-token value. Nearest on the scale: text-xs (12px), text-sm (14px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\components\shared\risk-alert.tsx
+  24:11  warning  "bg-[#4A0709]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  24:11  warning  "border-[#FF0006]" hardcodes a color. Nearest theme tokens: border-status-error, border-danger. Use one of those, or declare --color-<name> in src/tailwind.css                                                                                                                          shadcn/no-arbitrary-values
+  24:11  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                      shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\agent-settings.tsx
+   956:42  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                    shadcn/no-raw-colors
+  1189:25  warning  "border-[#717888]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css            shadcn/no-arbitrary-values
+  1189:25  warning  "placeholder:text-[#717888]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css  shadcn/no-arbitrary-values
+  1214:40  warning  "text-[#717888]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css              shadcn/no-arbitrary-values
+  1266:40  warning  "text-[#717888]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css              shadcn/no-arbitrary-values
+  1275:25  warning  "border-[#3D4046]" hardcodes a color and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css            shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\canvas-extensions.tsx
+  124:26  warning  "border-amber-400/30" uses the raw Tailwind palette. Nearest theme tokens: border-logo/30, border-primary/30. Use one of those, or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+  124:26  warning  "bg-amber-400/5" uses the raw Tailwind palette. Nearest theme tokens: bg-logo/5, bg-primary/5. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                 shadcn/no-raw-colors
+  124:26  warning  "text-amber-100" uses the raw Tailwind palette. Nearest theme tokens: text-contrast. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                           shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\device-verify.tsx
+   72:46  warning  "text-green-600" uses the raw Tailwind palette. Nearest theme tokens: text-status-success. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                                shadcn/no-raw-colors
+   72:65  warning  "text-red-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color       shadcn/no-raw-colors
+  153:28  warning  "tracking-[0.3em]" hardcodes an off-token value. Use a theme token or scale value instead                                                                                                                                                                                                                                 shadcn/no-arbitrary-values
+  157:28  warning  "bg-amber-950/50" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color    shadcn/no-raw-colors
+  157:28  warning  "border-amber-500" uses the raw Tailwind palette. Nearest theme tokens: border-logo, border-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                      shadcn/no-raw-colors
+  158:28  warning  "text-amber-500" uses the raw Tailwind palette. Nearest theme tokens: text-logo, text-primary. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                            shadcn/no-raw-colors
+  179:27  warning  "bg-blue-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  179:27  warning  "hover:bg-blue-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\files-tab.tsx
+  163:19  warning  "rounded-[7px]" hardcodes an off-token value. Nearest on the scale: rounded-md (6px), rounded-lg (8px)  shadcn/no-arbitrary-values
+  250:35  warning  "rounded-[7px]" hardcodes an off-token value. Nearest on the scale: rounded-md (6px), rounded-lg (8px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\launch.tsx
+  108:23  warning  "text-red-400" uses the raw Tailwind palette. Nearest theme tokens: text-status-error, text-danger. Use one of those, or declare --color-<name> in src/tailwind.css for a new color                                                                                                                                       shadcn/no-raw-colors
+  125:25  warning  "bg-blue-600" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color        shadcn/no-raw-colors
+  125:25  warning  "hover:bg-blue-700" uses the raw Tailwind palette and no declared theme color is close to it. Use one of: accent, base, base-secondary, basic, border, border-input, border-subtle, content, content-2, contrast, cool-grey-100, cool-grey-200 (+40 more), or declare --color-<name> in src/tailwind.css for a new color  shadcn/no-raw-colors
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\routes\meta-llm-settings.tsx
+  24:19  warning  "text-[var(--oh-muted)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\ui\pre.tsx
+  42:14  warning  "max-h-[60vh]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\ui\typography.tsx
+  7:11  warning  "text-[32px]" hardcodes an off-token value. Nearest on the scale: text-3xl (30px), text-4xl (36px)  shadcn/no-arbitrary-values
+  8:11  warning  "-tracking-[0.02em]" hardcodes an off-token value. Use a theme token or scale value instead         shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\custom-toast-handlers.tsx
+   87:19  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+   87:19  warning  "[overflow-wrap:anywhere]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  137:21  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  137:21  warning  "[overflow-wrap:anywhere]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  151:21  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  151:21  warning  "[overflow-wrap:anywhere]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  172:21  warning  "[word-break:break-word]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  172:21  warning  "[overflow-wrap:anywhere]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\dropdown-classes.ts
+  72:3  warning  "max-h-[13.875rem]" hardcodes an off-token value. Use a theme token or scale value instead                    shadcn/no-arbitrary-values
+  81:3  warning  "max-h-[min(60vh,calc(100dvh-5rem))]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\form-control-classes.ts
+  21:3  warning  "transition-[background-color,border-color,box-shadow,opacity]" hardcodes an off-token value. Use a theme token or scale value instead   shadcn/no-arbitrary-values
+  32:3  warning  "!transition-[background-color,border-color,box-shadow,opacity]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+  39:3  warning  "transition-[transform]" hardcodes an off-token value. Use a theme token or scale value instead                                          shadcn/no-arbitrary-values
+  50:3  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)                             shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\git-control-bar-classes.ts
+  4:3  warning  "rounded-[100px]" hardcodes an off-token value. Nearest on the scale: rounded-4xl (32px), rounded-3xl (24px)  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\hover-reveal-classes.ts
+  78:13  warning  "min-w-[3.75rem]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\modal-classes.ts
+  5:3  warning  "-tracking-[0.01em]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\src\utils\settings-list-classes.ts
+  23:3  warning  "max-h-[min(70vh,39rem)]" hardcodes an off-token value. Use a theme token or scale value instead  shadcn/no-arbitrary-values
+
+✖ 528 problems (0 errors, 528 warnings)
+
+Checking formatting...
+All matched files use Prettier code style!

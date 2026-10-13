@@ -1,0 +1,384 @@
+
+> @openhands/agent-canvas@1.25.0 build
+> npm run build:app
+
+
+> @openhands/agent-canvas@1.25.0 build:app
+> npm run make-i18n && react-router build
+
+
+> @openhands/agent-canvas@1.25.0 make-i18n
+> node scripts/make-i18n-translations.cjs
+
+vite v8.0.16 building client environment for production...
+[2K
+[plugin rolldown:vite-resolve] Module "node:http" has been externalized for browser compatibility, imported by "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/http-client.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin rolldown:vite-resolve] Module "node:https" has been externalized for browser compatibility, imported by "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/http-client.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin rolldown:vite-resolve] Module "node:https" has been externalized for browser compatibility, imported by "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/http-client.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+[plugin rolldown:vite-resolve] Module "node:http" has been externalized for browser compatibility, imported by "C:/Users/lwy/Documents/Codex/2026-10-05/github-plugin-github-openai-curated-remote-2/work/oh17970/node_modules/@openhands/typescript-client/dist/client/http-client.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.
+transforming...✓ 7392 modules transformed.
+rendering chunks...
+computing gzip size...
+build/client/assets/notification-Cyeyy5ud.mp3                                                                                          11.66 kB
+build/client/.vite/manifest.json                                                                                                      154.81 kB │ gzip:  15.42 kB
+build/client/assets/vendor~terminal-T4IDBjWs.css                                                                                        5.04 kB │ gzip:   1.05 kB
+build/client/assets/root-C2bXEeTN.css                                                                                                 431.09 kB │ gzip:  49.27 kB
+build/client/assets/git-repo-dropdown-U2iFn-MI.js                                                                                       0.04 kB │ gzip:   0.06 kB
+build/client/assets/home-C-YdcwWz.js                                                                                                    0.06 kB │ gzip:   0.07 kB
+build/client/assets/conversation-DkGHA7VD.js                                                                                            0.06 kB │ gzip:   0.08 kB
+build/client/assets/conversation-panel-DkGHA7VD.js                                                                                      0.06 kB │ gzip:   0.08 kB
+build/client/assets/llm-settings-CjLQWhhH.js                                                                                            0.06 kB │ gzip:   0.08 kB
+build/client/assets/agent-settings-2UxEZ0U-.js                                                                                          0.08 kB │ gzip:   0.09 kB
+build/client/assets/__vite-browser-external-NEUUz2mh.js                                                                                 0.10 kB │ gzip:   0.11 kB
+build/client/assets/check-BmaF3Ilp.js                                                                                                   0.12 kB │ gzip:   0.14 kB
+build/client/assets/chevron-down-D9m5bjfy.js                                                                                            0.12 kB │ gzip:   0.14 kB
+build/client/assets/merge-agent-profile-save-input-WcFmQVKK.js                                                                          0.12 kB │ gzip:   0.12 kB
+build/client/assets/chevron-right-djsMyPbI.js                                                                                           0.13 kB │ gzip:   0.14 kB
+build/client/assets/loader-circle-1XHHz-0z.js                                                                                           0.14 kB │ gzip:   0.15 kB
+build/client/assets/plus-i_xIy-_7.js                                                                                                    0.15 kB │ gzip:   0.15 kB
+build/client/assets/arrow-up-right-DUwHu3LB.js                                                                                          0.16 kB │ gzip:   0.16 kB
+build/client/assets/automation-C_eCrGyP.js                                                                                              0.17 kB │ gzip:   0.13 kB
+build/client/assets/use-create-secret-NpdA7w-O.js                                                                                       0.18 kB │ gzip:   0.16 kB
+build/client/assets/use-is-authed-JGtVBj7U.js                                                                                           0.19 kB │ gzip:   0.17 kB
+build/client/assets/list-filter-DhxKVFWC.js                                                                                             0.19 kB │ gzip:   0.17 kB
+build/client/assets/info-CZESP6Fs.js                                                                                                    0.20 kB │ gzip:   0.18 kB
+build/client/assets/copy-C7Tqh1qp.js                                                                                                    0.23 kB │ gzip:   0.21 kB
+build/client/assets/scroll-fade-state-Dt_fx2kf.js                                                                                       0.23 kB │ gzip:   0.15 kB
+build/client/assets/modal-classes-DnQhJeBj.js                                                                                           0.24 kB │ gzip:   0.16 kB
+build/client/assets/use-color-theme-DWKysrZf.js                                                                                         0.24 kB │ gzip:   0.20 kB
+build/client/assets/external-link-DZhPJ4w8.js                                                                                           0.25 kB │ gzip:   0.20 kB
+build/client/assets/triangle-alert-BNuiP-RP.js                                                                                          0.26 kB │ gzip:   0.21 kB
+build/client/assets/x-DMP9eA0J.js                                                                                                       0.27 kB │ gzip:   0.22 kB
+build/client/assets/pencil-DEufRixo.js                                                                                                  0.27 kB │ gzip:   0.23 kB
+build/client/assets/plug-xanrzi1_.js                                                                                                    0.28 kB │ gzip:   0.20 kB
+build/client/assets/index-home-BPHrzlNw.js                                                                                              0.31 kB │ gzip:   0.23 kB
+build/client/assets/cloud-integrations-url-C7YhcLqZ.js                                                                                  0.31 kB │ gzip:   0.26 kB
+build/client/assets/refresh-cw-rO2-OB3R.js                                                                                              0.32 kB │ gzip:   0.23 kB
+build/client/assets/badge-DfA9GLME.js                                                                                                   0.32 kB │ gzip:   0.25 kB
+build/client/assets/bot-86mSbKE7.js                                                                                                     0.32 kB │ gzip:   0.23 kB
+build/client/assets/trash-2-DuVyMmu9.js                                                                                                 0.32 kB │ gzip:   0.22 kB
+build/client/assets/use-llm-profiles-BOQSFFBl.js                                                                                        0.34 kB │ gzip:   0.26 kB
+build/client/assets/use-meta-profiles-DnX99LYT.js                                                                                       0.34 kB │ gzip:   0.26 kB
+build/client/assets/pin-BJHOJoHE.js                                                                                                     0.34 kB │ gzip:   0.24 kB
+build/client/assets/settings-like-page-layout-classes-B4c0BG_c.js                                                                       0.34 kB │ gzip:   0.16 kB
+build/client/assets/x-mark-BErElEGJ.js                                                                                                  0.35 kB │ gzip:   0.28 kB
+build/client/assets/use-agent-profiles-M6bW5FP7.js                                                                                      0.35 kB │ gzip:   0.27 kB
+build/client/assets/navigation-context-DvkvNiCJ.js                                                                                      0.35 kB │ gzip:   0.26 kB
+build/client/assets/mcp-installed-servers-CLAL4D1C.js                                                                                   0.37 kB │ gzip:   0.24 kB
+build/client/assets/format-time-delta-GCzDTGKN.js                                                                                       0.37 kB │ gzip:   0.26 kB
+build/client/assets/search-DVgvXP4i.js                                                                                                  0.38 kB │ gzip:   0.30 kB
+build/client/assets/settings-section-header-context-qxRnvGOO.js                                                                         0.39 kB │ gzip:   0.26 kB
+build/client/assets/use-cloud-org-member-eU112HUf.js                                                                                    0.39 kB │ gzip:   0.30 kB
+build/client/assets/exclamation-circle-DMGZYx39.js                                                                                      0.41 kB │ gzip:   0.31 kB
+build/client/assets/mouse-pointer-click-C4jrU1ue.js                                                                                     0.41 kB │ gzip:   0.28 kB
+build/client/assets/condenser-settings-o0elheXs.js                                                                                      0.42 kB │ gzip:   0.29 kB
+build/client/assets/format-model-name-Dfh9Udrx.js                                                                                       0.42 kB │ gzip:   0.27 kB
+build/client/assets/extension-module-card-classes-d--2TMpk.js                                                                           0.42 kB │ gzip:   0.29 kB
+build/client/assets/use-breakpoint-B3OdmRSL.js                                                                                          0.43 kB │ gzip:   0.28 kB
+build/client/assets/agent-context-settings-CX_1avvf.js                                                                                  0.43 kB │ gzip:   0.29 kB
+build/client/assets/switch-skeleton-D8YemeU4.js                                                                                         0.46 kB │ gzip:   0.24 kB
+build/client/assets/file-BcRKgmxn.js                                                                                                    0.46 kB │ gzip:   0.35 kB
+build/client/assets/get-git-path-yVCHxL_r.js                                                                                            0.46 kB │ gzip:   0.33 kB
+build/client/assets/use-click-outside-element-czyog1hl.js                                                                               0.46 kB │ gzip:   0.29 kB
+build/client/assets/modal-body-C5TeyrnI.js                                                                                              0.46 kB │ gzip:   0.34 kB
+build/client/assets/vendor~launch-CQ_JHlt5.js                                                                                           0.48 kB │ gzip:   0.23 kB
+build/client/assets/use-save-agent-profile-DJBMEMZH.js                                                                                  0.48 kB │ gzip:   0.33 kB
+build/client/assets/close-CJiJiBNB.js                                                                                                   0.48 kB │ gzip:   0.34 kB
+build/client/assets/use-can-manage-org-profiles-loR2A5s_.js                                                                             0.51 kB │ gzip:   0.37 kB
+build/client/assets/terminal-Fjr1353c.js                                                                                                0.53 kB │ gzip:   0.37 kB
+build/client/assets/skill-icon-badge-DvL5Ij0K.js                                                                                        0.56 kB │ gzip:   0.40 kB
+build/client/assets/puzzle-B_UvXDLh.js                                                                                                  0.57 kB │ gzip:   0.27 kB
+build/client/assets/transcription-endpoint-storage-Bo3U_50C.js                                                                          0.57 kB │ gzip:   0.31 kB
+build/client/assets/conversation-tab-empty-state-D9F9cB11.js                                                                            0.61 kB │ gzip:   0.35 kB
+build/client/assets/environment-switch-store-DVQZLFbj.js                                                                                0.62 kB │ gzip:   0.31 kB
+build/client/assets/copy-HO-0uUgu.js                                                                                                    0.64 kB │ gzip:   0.39 kB
+build/client/assets/dist-wKknryya.js                                                                                                    0.65 kB │ gzip:   0.40 kB
+build/client/assets/profile-actions-menu-item-DbV_E4zz.js                                                                               0.66 kB │ gzip:   0.42 kB
+build/client/assets/verification-settings-CYTPqXMh.js                                                                                   0.67 kB │ gzip:   0.40 kB
+build/client/assets/use-automation-health-xnCmuN2n.js                                                                                   0.68 kB │ gzip:   0.47 kB
+build/client/assets/u-edit-DAF8_RIN.js                                                                                                  0.68 kB │ gzip:   0.44 kB
+build/client/assets/react-s_E7RAfi.js                                                                                                   0.69 kB │ gzip:   0.43 kB
+build/client/assets/map-provider-BZaqjHRo.js                                                                                            0.70 kB │ gzip:   0.43 kB
+build/client/assets/loading-spinner-DS_H4JlQ.js                                                                                         0.70 kB │ gzip:   0.46 kB
+build/client/assets/copy-to-clipboard-button-BZTDmsxG.js                                                                                0.71 kB │ gzip:   0.45 kB
+build/client/assets/settings-list-classes-Bd35CrT-.js                                                                                   0.72 kB │ gzip:   0.42 kB
+build/client/assets/u-plus-BGiTiBYn.js                                                                                                  0.74 kB │ gzip:   0.42 kB
+build/client/assets/use-get-secrets-C74667r2.js                                                                                         0.74 kB │ gzip:   0.46 kB
+build/client/assets/use-cloud-sandbox-DwltjVJs.js                                                                                       0.76 kB │ gzip:   0.49 kB
+build/client/assets/use-user-conversation-CW63rZK3.js                                                                                   0.77 kB │ gzip:   0.48 kB
+build/client/assets/use-launch-skill-in-chat-BVU4tDpi.js                                                                                0.77 kB │ gzip:   0.50 kB
+build/client/assets/skills-D_2TudVR.js                                                                                                  0.78 kB │ gzip:   0.43 kB
+build/client/assets/styled-tooltip-BZmTU8Ue.js                                                                                          0.79 kB │ gzip:   0.47 kB
+build/client/assets/modal-backdrop-DRkHz8xS.js                                                                                          0.82 kB │ gzip:   0.51 kB
+build/client/assets/rolldown-runtime-Cyuzqnbw.js                                                                                        0.82 kB │ gzip:   0.47 kB
+build/client/assets/back-nav-button-CLxGZz2g.js                                                                                         0.83 kB │ gzip:   0.47 kB
+build/client/assets/use-activate-agent-profile-Dsed13ev.js                                                                              0.88 kB │ gzip:   0.49 kB
+build/client/assets/parse-git-remote-url-BG8pcKL8.js                                                                                    0.90 kB │ gzip:   0.51 kB
+build/client/assets/not-found-CDN3-Tpk.js                                                                                               0.91 kB │ gzip:   0.53 kB
+build/client/assets/navigation-link-CUhd7ii0.js                                                                                         0.91 kB │ gzip:   0.57 kB
+build/client/assets/use-cloud-current-user-id-6NGkxePs.js                                                                               0.91 kB │ gzip:   0.56 kB
+build/client/assets/skill-enablement-CprfUL7K.js                                                                                        0.95 kB │ gzip:   0.48 kB
+build/client/assets/wrench-DfcPa6SR.js                                                                                                  1.00 kB │ gzip:   0.56 kB
+build/client/assets/confirmation-modal-pVV_t9aU.js                                                                                      1.00 kB │ gzip:   0.56 kB
+build/client/assets/plugins-management-service-CRZojH3c.js                                                                              1.01 kB │ gzip:   0.41 kB
+build/client/assets/useQuery-_G8amwTw.js                                                                                                1.04 kB │ gzip:   0.64 kB
+build/client/assets/use-config-DXSAz9lJ.js                                                                                              1.04 kB │ gzip:   0.66 kB
+build/client/assets/llm-subscription-DTqtBCWz.js                                                                                        1.05 kB │ gzip:   0.46 kB
+build/client/assets/automation-templates-VX0WFL2S.js                                                                                    1.06 kB │ gzip:   0.60 kB
+build/client/assets/modal-close-button-xKf1xJrt.js                                                                                      1.07 kB │ gzip:   0.67 kB
+build/client/assets/use-pinned-home-route-CLmSQxrp.js                                                                                   1.07 kB │ gzip:   0.59 kB
+build/client/assets/toggle-switch-BlHFWcyr.js                                                                                           1.08 kB │ gzip:   0.56 kB
+build/client/assets/settings-BnUGfLl0.js                                                                                                1.08 kB │ gzip:   0.50 kB
+build/client/assets/backend-synced-settings-badge-EZYS81kE.js                                                                           1.11 kB │ gzip:   0.66 kB
+build/client/assets/use-automation-permissions-CuX1K0of.js                                                                              1.11 kB │ gzip:   0.58 kB
+build/client/assets/chat-send-button-B-iW5YDU.js                                                                                        1.11 kB │ gzip:   0.68 kB
+build/client/assets/brand-button-COVsnRmK.js                                                                                            1.16 kB │ gzip:   0.62 kB
+build/client/assets/canvas-extension-icon-C4k69Pm9.js                                                                                   1.18 kB │ gzip:   0.69 kB
+build/client/assets/entry.client-B8JgJCvI.js                                                                                            1.22 kB │ gzip:   0.67 kB
+build/client/assets/useInfiniteQuery-Cel7n0yO.js                                                                                        1.24 kB │ gzip:   0.54 kB
+build/client/assets/use-plugins-marketplace-Cvd7idkP.js                                                                                 1.26 kB │ gzip:   0.69 kB
+build/client/assets/settings-switch-CU-3uNLe.js                                                                                         1.28 kB │ gzip:   0.74 kB
+build/client/assets/checkmark-BSj0A5H1.js                                                                                               1.31 kB │ gzip:   0.73 kB
+build/client/assets/base-modal-CZa0ll5k.js                                                                                              1.33 kB │ gzip:   0.65 kB
+build/client/assets/link-external-DOqZTSt0.js                                                                                           1.33 kB │ gzip:   0.58 kB
+build/client/assets/organization-service.api-B8WAE0Bz.js                                                                                1.35 kB │ gzip:   0.62 kB
+build/client/assets/vendor~root-layout~index-home~home~conversation-panel~conversation-DkLtR18c.js                                      1.37 kB │ gzip:   0.78 kB
+build/client/assets/error-state-B29c11he.js                                                                                             1.39 kB │ gzip:   0.61 kB
+build/client/assets/typography-BPQqmdGy.js                                                                                              1.45 kB │ gzip:   0.48 kB
+build/client/assets/settings-index-D60FRCxu.js                                                                                          1.48 kB │ gzip:   0.79 kB
+build/client/assets/dropdown-classes-D6oDrffB.js                                                                                        1.52 kB │ gzip:   0.65 kB
+build/client/assets/syntax-highlighter-7Dw5pt9J.js                                                                                      1.52 kB │ gzip:   0.91 kB
+build/client/assets/vendor~root-layout~conversation-panel~conversation~shared-conversation-DDEkt68-.js                                  1.55 kB │ gzip:   0.72 kB
+build/client/assets/cloud-funnel-analytics-Dcb_nmku.js                                                                                  1.57 kB │ gzip:   0.83 kB
+build/client/assets/use-model-catalog-warning-CPF-8HkH.js                                                                               1.59 kB │ gzip:   0.94 kB
+build/client/assets/sidebar-layout-CTZWH0gD.js                                                                                          1.60 kB │ gzip:   0.69 kB
+build/client/assets/meta-profiles-service.api-CjEzR_Zp.js                                                                               1.61 kB │ gzip:   0.58 kB
+build/client/assets/vendor~browser-tab-DPDpijgv.js                                                                                      1.62 kB │ gzip:   0.88 kB
+build/client/assets/use-save-settings-CqUjcrHU.js                                                                                       1.63 kB │ gzip:   0.76 kB
+build/client/assets/proxy-Cb7_MNZx.js                                                                                                   1.64 kB │ gzip:   0.83 kB
+build/client/assets/context-menu-list-item-BF42loEV.js                                                                                  1.67 kB │ gzip:   0.84 kB
+build/client/assets/planner-tab-BVhVQKp2.js                                                                                             1.70 kB │ gzip:   0.96 kB
+build/client/assets/agent-profiles-service.api-DodzAN0k.js                                                                              1.73 kB │ gzip:   0.69 kB
+build/client/assets/form-control-classes-BI_ApmOy.js                                                                                    1.80 kB │ gzip:   0.75 kB
+build/client/assets/settings-input-BQjyZM89.js                                                                                          1.83 kB │ gzip:   0.94 kB
+build/client/assets/task-list-tab-BnDWY6lD.js                                                                                           1.90 kB │ gzip:   0.91 kB
+build/client/assets/extensions-hub-D9ti3G1M.js                                                                                          1.92 kB │ gzip:   1.02 kB
+build/client/assets/use-free-models-BlJzDloI.js                                                                                         1.93 kB │ gzip:   0.94 kB
+build/client/assets/agent-server-config-C_x8Otd9.js                                                                                     1.96 kB │ gzip:   0.84 kB
+build/client/assets/enum-filter-dropdown-O9uLUgiJ.js                                                                                    1.98 kB │ gzip:   1.06 kB
+build/client/assets/canvas-extension-page-BlwsPebw.js                                                                                   2.00 kB │ gzip:   1.06 kB
+build/client/assets/use-verified-models-DdzeNSkV.js                                                                                     2.10 kB │ gzip:   0.91 kB
+build/client/assets/u-check-circle-CAs_4gyk.js                                                                                          2.10 kB │ gzip:   1.09 kB
+build/client/assets/use-super-admin-setup-guide-CZGIr6M-.js                                                                             2.15 kB │ gzip:   1.02 kB
+build/client/assets/createLucideIcon-DWFAOSDj.js                                                                                        2.16 kB │ gzip:   1.11 kB
+build/client/assets/llm-subscription-service-BqagXfvW.js                                                                                2.17 kB │ gzip:   0.91 kB
+build/client/assets/settings-dropdown-input-BKZDYmQn.js                                                                                 2.20 kB │ gzip:   1.11 kB
+build/client/assets/alert-banner-D2ew8JDA.js                                                                                            2.23 kB │ gzip:   1.09 kB
+build/client/assets/settings-gear-DH6LHoAi.js                                                                                           2.24 kB │ gzip:   1.12 kB
+build/client/assets/circle-plus-check-toggle-Bsay42wb.js                                                                                2.32 kB │ gzip:   1.12 kB
+build/client/assets/use-manifest-capabilities-Dpze2Opv.js                                                                               2.35 kB │ gzip:   1.16 kB
+build/client/assets/ellipsis-button-kMDey-Eq.js                                                                                         2.42 kB │ gzip:   1.13 kB
+build/client/assets/secrets-service-CMG1aAjq.js                                                                                         2.43 kB │ gzip:   1.07 kB
+build/client/assets/browser-tab-BonjczOg.js                                                                                             2.46 kB │ gzip:   1.08 kB
+build/client/assets/api-key-entry-screen-CaCW0b1w.js                                                                                    2.51 kB │ gzip:   1.27 kB
+build/client/assets/iconBase-ccN0kgYG.js                                                                                                2.52 kB │ gzip:   1.11 kB
+build/client/assets/profiles-service.api-DKIELT5i.js                                                                                    2.56 kB │ gzip:   1.01 kB
+build/client/assets/manifest-subpage-layout-Byy8fKrX.js                                                                                 2.60 kB │ gzip:   1.20 kB
+build/client/assets/useMutation-Dm-anD8T.js                                                                                             2.61 kB │ gzip:   1.07 kB
+build/client/assets/api-key-modal-base-z0GmCGuY.js                                                                                      2.78 kB │ gzip:   1.42 kB
+build/client/assets/cloud-organization-boundary-r79lBCsP.js                                                                             2.78 kB │ gzip:   1.28 kB
+build/client/assets/acp-providers-BJOYlts5.js                                                                                           2.80 kB │ gzip:   1.23 kB
+build/client/assets/server-process-C0YCc9am.js                                                                                          2.82 kB │ gzip:   1.30 kB
+build/client/assets/folder-DAXVz-5Q.js                                                                                                  2.90 kB │ gzip:   1.12 kB
+build/client/assets/file-tree-view-CP5P8QJB.js                                                                                          2.90 kB │ gzip:   1.23 kB
+build/client/assets/cog-CI8x16xZ.js                                                                                                     2.92 kB │ gzip:   1.19 kB
+build/client/assets/highlighted-source-view-DfsJc6yP.js                                                                                 2.93 kB │ gzip:   1.32 kB
+build/client/assets/use-onboarding-completion-DcqAM-j6.js                                                                               3.02 kB │ gzip:   1.44 kB
+build/client/assets/environment-switch-overlay-2SgTFWQ6.js                                                                              3.04 kB │ gzip:   1.12 kB
+build/client/assets/trash-CJHiHBwd.js                                                                                                   3.14 kB │ gzip:   1.51 kB
+build/client/assets/mcp-DA2oCKjf.js                                                                                                     3.16 kB │ gzip:   1.44 kB
+build/client/assets/extensions-navigation-DhfD4IFP.js                                                                                   3.17 kB │ gzip:   1.51 kB
+build/client/assets/use-automations-Ch1qsMzi.js                                                                                         3.32 kB │ gzip:   1.14 kB
+build/client/assets/use-native-git-integrations-P9w17W0P.js                                                                             3.47 kB │ gzip:   1.54 kB
+build/client/assets/sidebar-nav-link-Bgd15HAV.js                                                                                        3.51 kB │ gzip:   1.26 kB
+build/client/assets/skill-card-pill-row-CKfEheYu.js                                                                                     3.71 kB │ gzip:   1.67 kB
+build/client/assets/settings-CIFmBSbp.js                                                                                                3.72 kB │ gzip:   1.63 kB
+build/client/assets/settings-modal-Ddg4jZ9Q.js                                                                                          3.74 kB │ gzip:   1.72 kB
+build/client/assets/secret-form-4krTD0wU.js                                                                                             3.74 kB │ gzip:   1.60 kB
+build/client/assets/sidebar-onboarding-checklist-storage-DDAytdNn.js                                                                    3.83 kB │ gzip:   1.02 kB
+build/client/assets/use-canvas-extensions-B9NhduO5.js                                                                                   3.84 kB │ gzip:   1.77 kB
+build/client/assets/settings-utils-CMZyVrAG.js                                                                                          3.90 kB │ gzip:   1.78 kB
+build/client/assets/shared-conversation-9dDs29nU.js                                                                                     4.26 kB │ gzip:   1.77 kB
+build/client/assets/vendor~conversation-panel~conversation-8HSDFdwM.js                                                                  4.39 kB │ gzip:   1.43 kB
+build/client/assets/use-create-conversation-sTT6evGR.js                                                                                 4.41 kB │ gzip:   1.91 kB
+build/client/assets/skills-settings-DpD3kiG5.js                                                                                         4.63 kB │ gzip:   1.94 kB
+build/client/assets/terminal-D3pmztUu.js                                                                                                4.64 kB │ gzip:   2.13 kB
+build/client/assets/vendor~root-layout~index-home~home~conversation-panel~conversation~shared-conversation-Dw9hu3BV.js                  4.64 kB │ gzip:   1.81 kB
+build/client/assets/super-admin-setup-guide-DF0-6zdl.js                                                                                 4.95 kB │ gzip:   2.03 kB
+build/client/assets/use-cloud-organizations-D3LeJTKZ.js                                                                                 4.98 kB │ gzip:   2.13 kB
+build/client/assets/skill-scope-D98pm7lg.js                                                                                             4.98 kB │ gzip:   2.12 kB
+build/client/assets/secrets-settings-D4IlAJ6W.js                                                                                        5.20 kB │ gzip:   1.98 kB
+build/client/assets/automation-export-B3wKT06v.js                                                                                       5.51 kB │ gzip:   2.16 kB
+build/client/assets/device-verify-CPjkBE9e.js                                                                                           5.99 kB │ gzip:   1.80 kB
+build/client/assets/providers-n3uhYD5m.js                                                                                               6.00 kB │ gzip:   2.54 kB
+build/client/assets/sidebar-mobile-menu-toggle-r9s51p8P.js                                                                              6.23 kB │ gzip:   2.45 kB
+build/client/assets/sidebar-store-BwHrGQzz.js                                                                                           6.36 kB │ gzip:   2.02 kB
+build/client/assets/use-acp-credential-form-C6ogSzr0.js                                                                                 6.53 kB │ gzip:   2.78 kB
+build/client/assets/command-menu-Dsnl0agW.js                                                                                            6.86 kB │ gzip:   2.78 kB
+build/client/assets/home-store-CJ9r0tnH.js                                                                                              6.94 kB │ gzip:   2.77 kB
+build/client/assets/canvas-extensions-runtime-Bm03wfdZ.js                                                                               7.27 kB │ gzip:   3.20 kB
+build/client/assets/app-settings-DhBsagLB.js                                                                                            7.50 kB │ gzip:   2.67 kB
+build/client/assets/manage-backends-modal-DW5UG-MT.js                                                                                   7.66 kB │ gzip:   2.97 kB
+build/client/assets/vendor~entry.client-DjZoBICj.js                                                                                     7.74 kB │ gzip:   3.09 kB
+build/client/assets/launch-liTckUhh.js                                                                                                  8.30 kB │ gzip:   3.02 kB
+build/client/assets/agent-server-client-options-EJGswnqe.js                                                                             8.41 kB │ gzip:   3.12 kB
+build/client/assets/git-repo-dropdown-CM_o1if3.js                                                                                       8.58 kB │ gzip:   3.48 kB
+build/client/assets/vendor~root-layout-gWCUQyZk.js                                                                                      8.59 kB │ gzip:   3.10 kB
+build/client/assets/use-provider-connections-DkYbrO3x.js                                                                                9.16 kB │ gzip:   3.92 kB
+build/client/assets/sdk-section-page-n8Yjbmi-.js                                                                                        9.25 kB │ gzip:   3.52 kB
+build/client/assets/usage-tab-CjNjvhtt.js                                                                                               9.47 kB │ gzip:   3.24 kB
+build/client/assets/edit-automation-modal-C3uW1R4n.js                                                                                   9.48 kB │ gzip:   3.25 kB
+build/client/assets/use-settings-nav-items-BD2yD2jA.js                                                                                  9.57 kB │ gzip:   3.11 kB
+build/client/assets/conversation-state-store-Bdxeyeis.js                                                                               10.17 kB │ gzip:   4.13 kB
+build/client/assets/schema-field-NyakDBqr.js                                                                                           10.74 kB │ gzip:   3.92 kB
+build/client/assets/use-llm-configured-DrkxkSkV.js                                                                                     10.76 kB │ gzip:   4.68 kB
+build/client/assets/openhands-logo-DBzQJUDL.js                                                                                         10.88 kB │ gzip:   4.66 kB
+build/client/assets/vendor~root-layout~conversation-panel~conversation~skills-settings~automations-list~shared-~bovqqk8e-DwuVzPiT.js   10.91 kB │ gzip:   4.61 kB
+build/client/assets/canvas-extensions-DerZ8RWY.js                                                                                      10.93 kB │ gzip:   3.72 kB
+build/client/assets/automation-disabled-reason-CRXI9zqw.js                                                                             12.69 kB │ gzip:   4.65 kB
+build/client/assets/npm-CTHJx9fM.js                                                                                                    13.08 kB │ gzip:   5.09 kB
+build/client/assets/agent-profiles-settings-BxpI3SN2.js                                                                                13.38 kB │ gzip:   4.83 kB
+build/client/assets/color-themes-XoFLT_9n.js                                                                                           13.46 kB │ gzip:   3.24 kB
+build/client/assets/conversation-store-enVKk-PX.js                                                                                     13.77 kB │ gzip:   4.68 kB
+build/client/assets/commits-tab-suNUmTDp.js                                                                                            13.88 kB │ gzip:   4.79 kB
+build/client/assets/vendor~commits-tab-DlZHkzXG.js                                                                                     14.00 kB │ gzip:   4.78 kB
+build/client/assets/root-BNMtRkyM.js                                                                                                   14.27 kB │ gzip:   5.54 kB
+build/client/assets/empty-state-BXo3k71j.js                                                                                            15.35 kB │ gzip:   4.66 kB
+build/client/assets/onboarding-DEuZAZY3.js                                                                                             15.71 kB │ gzip:   5.12 kB
+build/client/assets/use-settings-CzdmeCCI.js                                                                                           17.62 kB │ gzip:   5.61 kB
+build/client/assets/files-tab-BoIV1xn5.js                                                                                              18.16 kB │ gzip:   6.61 kB
+build/client/assets/skills-plugins-DC9baaKx.js                                                                                         18.28 kB │ gzip:   5.33 kB
+build/client/assets/vendor~entry.client~root~root-layout~index-home~home~conversation-panel~conversation~launch~b1nsqfhj-B9JLEA12.js   18.33 kB │ gzip:   6.22 kB
+build/client/assets/automation-git-sync-DYj2FiuI.js                                                                                    19.69 kB │ gzip:   6.21 kB
+build/client/assets/automation-setup-route-JCCW2lEq.js                                                                                 21.52 kB │ gzip:   7.57 kB
+build/client/assets/vendor~entry.client~root~root-layout~index-home~home~conversation-panel~conversation~launch~tqfu0p3g-ZcjrFxqf.js   22.26 kB │ gzip:   7.42 kB
+build/client/assets/automations-list-ZYiVsPxu.js                                                                                       22.43 kB │ gzip:   7.33 kB
+build/client/assets/agent-settings-BQ7rmAIW.js                                                                                         22.76 kB │ gzip:   7.78 kB
+build/client/assets/recommended-automations-launcher-CoYnRlxL.js                                                                       23.87 kB │ gzip:   7.46 kB
+build/client/assets/home-automation-run-tooltip-zIolCpCL.js                                                                            24.59 kB │ gzip:   8.04 kB
+build/client/assets/skill-filter--HGEfZBN.js                                                                                           24.80 kB │ gzip:   7.42 kB
+build/client/assets/mcp-page-BtHAIaFo.js                                                                                               25.47 kB │ gzip:   7.93 kB
+build/client/assets/onboarding-modal-CPuISaXr.js                                                                                       26.57 kB │ gzip:   9.40 kB
+build/client/assets/install-server-modal-BD7qTZmc.js                                                                                   29.93 kB │ gzip:   9.79 kB
+build/client/assets/active-backend-context-DncsJYfD.js                                                                                 31.04 kB │ gzip:  11.93 kB
+build/client/assets/meta-llm-settings-Dl-dyINx.js                                                                                      31.30 kB │ gzip:  10.87 kB
+build/client/assets/automation-detail-X6vagqsf.js                                                                                      38.59 kB │ gzip:  12.36 kB
+build/client/assets/vendor~root-layout~index-home~home~conversation-panel~conversation~automation-setup-route-trmt_-oV.js              38.95 kB │ gzip:  11.50 kB
+build/client/assets/backend-form-modal-BDOi_xdx.js                                                                                     42.09 kB │ gzip:  14.71 kB
+build/client/assets/vendor~entry.client~root~root-layout~index-home~home~conversation-panel~conversation~launch~jvjheai2-ClsQF-FL.js   43.82 kB │ gzip:  10.23 kB
+build/client/assets/agent-server-conversation-service.api-CntrPasE.js                                                                  44.06 kB │ gzip:  15.13 kB
+build/client/assets/vendor~root-layout~conversation-panel~conversation-BZvoXeup.js                                                     46.24 kB │ gzip:  14.06 kB
+build/client/assets/llm-settings-BFNuFDpb.js                                                                                           47.16 kB │ gzip:  13.62 kB
+build/client/assets/home-BQzKrl2s.js                                                                                                   47.42 kB │ gzip:  14.55 kB
+build/client/assets/use-tracking-CH8DT6O3.js                                                                                           48.74 kB │ gzip:  14.87 kB
+build/client/assets/browser-ByBwFKJA.js                                                                                                52.56 kB │ gzip:  15.20 kB
+build/client/assets/markdown-renderer-CqJ46Iqd.js                                                                                      53.57 kB │ gzip:  18.32 kB
+build/client/assets/vendor~root~root-layout~index-home~home~conversation-panel~conversation~launch~skills-setti~bh6nyz94-DQi-lxF1.js   59.68 kB │ gzip:  15.52 kB
+build/client/assets/vendor~root-layout~index-home~home~conversation-panel~conversation~mcp~automations-list~aut~ibfbmr9f-DAygCsCR.js   71.83 kB │ gzip:  16.29 kB
+build/client/assets/messages-Bc7nBgre.js                                                                                               99.07 kB │ gzip:  32.16 kB
+build/client/assets/vendor~index-home~home~conversation-panel~conversation-C-v1DxDU.js                                                121.29 kB │ gzip:  36.42 kB
+build/client/assets/vendor~entry.client~root~root-layout~index-home~home~conversation-panel~conversation~launch~jqls6dop-B6YP1Apg.js  124.01 kB │ gzip:  41.92 kB
+build/client/assets/vendor~browser-BZ-zIfb6.js                                                                                        124.83 kB │ gzip:  35.93 kB
+build/client/assets/vendor~entry.client~root~root-layout~index-home~home~conversation-panel~conversation~launch~bqtejcob-RtN2P0BD.js  126.92 kB │ gzip:  42.31 kB
+build/client/assets/root-layout-D9RuaGcm.js                                                                                           143.05 kB │ gzip:  40.67 kB
+build/client/assets/llm-not-configured-banner-BSqIxfC7.js                                                                             148.20 kB │ gzip:  48.31 kB
+build/client/assets/conversation-z-5ImXFf.js                                                                                          160.67 kB │ gzip:  48.62 kB
+build/client/assets/utils-IxTn34_Z.js                                                                                                 175.82 kB │ gzip:  28.87 kB
+build/client/assets/vendor~entry.client-C57HbGLA.js                                                                                   203.60 kB │ gzip:  63.69 kB
+build/client/assets/vendor~module-B1ee3sVz.js                                                                                         235.18 kB │ gzip:  77.73 kB
+build/client/assets/vendor~browser-C6uXH-dw.js                                                                                        294.71 kB │ gzip: 122.49 kB
+build/client/assets/vendor~terminal-BVSbSr6V.js                                                                                       341.55 kB │ gzip:  86.68 kB
+build/client/assets/vendor-markdown-ChfFVASv.js                                                                                       472.81 kB │ gzip: 146.82 kB
+build/client/assets/vendor~root~root-layout~index-home~home~conversation-panel~conversation~launch~skills-setti~bh6nyz94-Ce32vqUc.js  508.82 kB │ gzip: 138.93 kB
+build/client/assets/vendor~root~root-layout~index-home~home~conversation-panel~conversation~launch~skills-setti~n70c8rb2-DgjXzvvq.js  515.48 kB │ gzip: 166.85 kB
+build/client/assets/vendor-styling-BZ8EcIUL.js                                                                                        528.23 kB │ gzip: 140.47 kB
+
+[INEFFECTIVE_DYNAMIC_IMPORT] src/components/features/backends/add-backend-modal.tsx is dynamically imported by src/components/features/sidebar/sidebar.tsx but also statically imported by src/components/features/backends/backend-selector.tsx, dynamic import will not move module into another chunk.
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[INEFFECTIVE_DYNAMIC_IMPORT] src/api/hooks-service.ts is dynamically imported by src/api/agent-server-adapter.ts but also statically imported by src/api/conversation-service/agent-server-conversation-service.api.ts, dynamic import will not move module into another chunk.
+
+[PLUGIN_TIMINGS] Your build spent significant time in plugins. Here is a breakdown:
+  - react-router:dot-server (36%)
+  - react-router:virtual-modules (26%)
+  - react-router:hmr-runtime (12%)
+  - react-router:inject-hmr-runtime (12%)
+  - vite-plugin-svgr (3%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 7.64s
+  ⚠️  Future Flag Warning: Route middleware support is changing in React Router v8.
+     You can use the `future.v8_middleware` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_middleware
+  ⚠️  Future Flag Warning: Route module splitting behavior is changing in React Router v8.
+     You can use the `future.v8_splitRouteModules` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_splitroutemodules
+  ⚠️  Future Flag Warning: Vite Environment API usage is changing in React Router v8.
+     You can use the `future.v8_viteEnvironmentApi` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_viteenvironmentapi
+  ⚠️  Future Flag Warning: Request handling behavior is changing in React Router v8.
+     You can use the `future.v8_passThroughRequests` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_passthroughrequests
+  ⚠️  Future Flag Warning: Data request URL formats are changing in React Router v8.
+     You can use the `future.v8_trailingSlashAwareDataRequests` flag to opt in early.
+     -> https://reactrouter.com/v7/upgrading/future#futurev8_trailingslashawaredatarequests
+vite v8.0.16 building ssr environment for production...
+[2K
+transforming...✓ 344 modules transformed.
+rendering chunks...
+✓ 1 asset cleaned from React Router server build.
+build\server\assets\server-build-C2bXEeTN.css
+
+SPA Mode: Generated build\client\index.html
+Removing the server build in C:\Users\lwy\Documents\Codex\2026-10-05\github-plugin-github-openai-curated-remote-2\work\oh17970\build\server due to ssr:false
+computing gzip size...
+build/server/.vite/manifest.json                               5.37 kB │ gzip:   0.78 kB
+build/server/assets/server-build-C2bXEeTN.css                431.09 kB │ gzip:  49.27 kB
+build/server/assets/secrets-service-AxSAkkZ2.js                0.09 kB │ gzip:   0.09 kB
+build/server/assets/hooks-service-Bb_Oi9zk.js                  0.10 kB │ gzip:   0.10 kB
+build/server/assets/profiles-service.api-D1IHIOHB.js           0.11 kB │ gzip:   0.11 kB
+build/server/assets/agent-profiles-service.api-CauFbVdO.js     0.12 kB │ gzip:   0.11 kB
+build/server/assets/rolldown-runtime-D7D4PA-g.js               0.36 kB │ gzip:   0.25 kB
+build/server/assets/use-cloud-organizations-4hQE_7Tn.js        2.34 kB │ gzip:   1.04 kB
+build/server/assets/proxy-DT3TG7bq.js                          3.67 kB │ gzip:   1.43 kB
+build/server/assets/api-key-entry-screen-DiYdJuBG.js           4.34 kB │ gzip:   1.79 kB
+build/server/assets/agent-server-compatibility-DYH6rJPx.js    12.43 kB │ gzip:   3.98 kB
+build/server/assets/manage-backends-modal-Df0xq6Ct.js         16.10 kB │ gzip:   4.62 kB
+build/server/assets/agent-server-client-options-CvW_XM6J.js   29.35 kB │ gzip:   8.60 kB
+build/server/assets/base-modal-DFEvEV_F.js                    46.56 kB │ gzip:  12.78 kB
+build/server/assets/backend-form-modal-Dbtd53Hw.js            73.05 kB │ gzip:  21.35 kB
+build/server/index.js                                        182.45 kB │ gzip:  22.95 kB
+build/server/assets/navigation-context-CLguPrTM.js           347.54 kB │ gzip:  68.36 kB
+build/server/assets/onboarding-modal-Dx9fYRpL.js             536.11 kB │ gzip: 141.39 kB
+
+[INEFFECTIVE_DYNAMIC_IMPORT] src/api/agent-profiles-service/agent-profiles-service.api.ts is dynamically imported by src/api/agent-server-adapter.ts but also statically imported by src/hooks/mutation/use-activate-agent-profile.ts, src/hooks/mutation/use-apply-onboarding-agent-profile.ts, src/hooks/mutation/use-create-conversation.ts, src/hooks/mutation/use-save-agent-profile.ts, src/hooks/query/use-agent-profiles.ts, dynamic import will not move module into another chunk.
+
+[INEFFECTIVE_DYNAMIC_IMPORT] src/api/hooks-service.ts is dynamically imported by src/api/agent-server-adapter.ts but also statically imported by src/api/conversation-service/agent-server-conversation-service.api.ts, dynamic import will not move module into another chunk.
+
+[INEFFECTIVE_DYNAMIC_IMPORT] src/api/profiles-service/profiles-service.api.ts is dynamically imported by src/api/agent-server-adapter.ts but also statically imported by src/api/conversation-service/agent-server-conversation-service.api.ts, src/components/features/settings/llm-profiles/llm-profiles-manager.tsx, src/components/features/settings/llm-profiles/llm-settings-local-view.tsx, src/hooks/mutation/use-activate-llm-profile.ts, src/hooks/mutation/use-create-conversation.ts, ..., dynamic import will not move module into another chunk.
+
+[INEFFECTIVE_DYNAMIC_IMPORT] src/api/secrets-service.ts is dynamically imported by src/api/agent-server-adapter.ts but also statically imported by src/hooks/mutation/use-create-secret.ts, src/hooks/mutation/use-save-fields-as-secrets.ts, src/hooks/query/use-get-secrets.ts, src/hooks/use-responder-url-secret.ts, dynamic import will not move module into another chunk.
+
+[PLUGIN_TIMINGS] Your build spent significant time in plugins. Here is a breakdown:
+  - react-router:dot-server (45%)
+  - react-router:virtual-modules (20%)
+  - react-router:hmr-runtime (16%)
+  - react-router:inject-hmr-runtime (8%)
+  - vite-plugin-svgr (3%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 3.54s
